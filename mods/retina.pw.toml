@@ -1,0 +1,13 @@
+name = "Retina"
+filename = "retina-2.3.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Eujb80KK/versions/cz9zqzok/retina-2.3.7.jar"
+hash-format = "sha1"
+hash = "c6396139a13a2fecf90bc67291329694a96e3cb4"
+
+[update]
+[update.modrinth]
+mod-id = "Eujb80KK"
+version = "cz9zqzok"
