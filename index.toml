@@ -9,6 +9,18 @@ file = "README.md"
 hash = "dbab81b7ae3b7c6cc8b3cf3b035a421629520d4bbbc34a1b88f8b84ecafe0b78"
 
 [[files]]
+file = "config/dynamic_fps.json"
+hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
+
+[[files]]
+file = "config/shulkerboxtooltip.json5"
+hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
+
+[[files]]
+file = "config/simplehudenhanced.toml"
+hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "4209b7c1f768202b2f70ec5ab499b26ae9d4e73cf1e855099fe5fb23db0512e5"
 metafile = true
@@ -96,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "975478c93b1218131fd48695cd7efb9bbe0d69125409940b015a7058e42fb6be"
+metafile = true
+
+[[files]]
+file = "mods/retina.pw.toml"
+hash = "12c3eeb34965c4bf53353c0a0b1a6b25205ffcc2338f2365a626094ea2ad8178"
 metafile = true
 
 [[files]]
