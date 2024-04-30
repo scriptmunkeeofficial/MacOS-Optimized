@@ -3,11 +3,11 @@ filename = "highlightedores.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/MpsPe6EI/versions/O6SeNHfo/highlightedores.zip"
+url = "https://cdn.modrinth.com/data/MpsPe6EI/versions/W2LpQ7fz/highlightedores.zip"
 hash-format = "sha1"
-hash = "7b8f0f1058d7c03f5e5b569324616700794179a4"
+hash = "95274730c2ed398dacb825821f7fbd3ac7ec754a"
 
 [update]
 [update.modrinth]
 mod-id = "MpsPe6EI"
-version = "O6SeNHfo"
+version = "W2LpQ7fz"
