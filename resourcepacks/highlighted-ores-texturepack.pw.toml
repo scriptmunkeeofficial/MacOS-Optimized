@@ -1,13 +1,13 @@
 name = "Highlighted Ores Texturepack"
-filename = "highlightedores.zip"
+filename = "Highlighted Ores.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/MpsPe6EI/versions/O6SeNHfo/highlightedores.zip"
+url = "https://cdn.modrinth.com/data/MpsPe6EI/versions/XXnHzaE1/Highlighted%20Ores.zip"
 hash-format = "sha1"
-hash = "7b8f0f1058d7c03f5e5b569324616700794179a4"
+hash = "6d46763e842590adb7483db993c856804cb466b9"
 
 [update]
 [update.modrinth]
 mod-id = "MpsPe6EI"
-version = "O6SeNHfo"
+version = "XXnHzaE1"
