@@ -1,0 +1,9 @@
+# general files
+.evn
+
+# packwiz
+*.mrpack
+*.zip
+
+# macos
+*.DS_Store

@@ -5,8 +5,176 @@ file = "LICENSE"
 hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
 
 [[files]]
-file = "README.md"
+file = "Mac OS Optimized-1.1.0.mrpack.old"
+hash = "497baaa2cc17c64ed66d9c5548c45f828e5aefdfe6c643d9ac2005975bfcb553"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/manifest.json"
+hash = "5e96e2afe953157f11f743f4b47895a4d71f382914552898c221c9a6b2191b09"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/modlist.html"
+hash = "b38c47dbd38e594a219ed4ad70d99f4e71b161c8576577323cd801080b3ecff5"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/LICENSE"
+hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/README.md"
 hash = "dbab81b7ae3b7c6cc8b3cf3b035a421629520d4bbbc34a1b88f8b84ecafe0b78"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/config/dynamic_fps.json"
+hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/config/shulkerboxtooltip.json5"
+hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/config/simplehudenhanced.toml"
+hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/Clumps-fabric-1.21-18.0.0.1.jar"
+hash = "7e51939a9b25f417c05d63ed227af4d9ae767300b5e2217be1ddd35de1ce7f65"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/ImmediatelyFast-Fabric-1.2.18+1.21.jar"
+hash = "ae8da6c4d5189182ded736a28358f1f9b7b8a51b572ebf7fce2039e40ed0af7a"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/YetAnotherConfigLib-3.5.0+1.21-fabric.jar"
+hash = "3f9985e8ea65f18d36bf500802d6a39789f067f2dcbc1480ef6570c1ff7fde04"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/capes-1.5.4+1.21-fabric.jar"
+hash = "ed7f2384319bd2e4804713a98d3bfd081c2f701f57db3629d3991dd22c138351"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/cloth-config-15.0.127-fabric.jar"
+hash = "741723c951e552f91149bd105a6d4692d311e57586253b637b003bc1ad94248b"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/dynamic-fps-3.6.0+minecraft-1.21.0-fabric.jar"
+hash = "c71ac51aa1e5fbc77a2fa2b8ead933511d414c125a6fe7094e6a3cc73669f703"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/entity_texture_features_fabric_1.21-6.1.3.jar"
+hash = "71880e076a85e4a3f4a1edc746c693aeeee2e6bba5e1f6c3d674ed51a0aee314"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/entityculling-fabric-1.6.6-mc1.21.jar"
+hash = "68b33c4d999860438235b2666c8f6b12ab71bd05c7ab00bf659c0fca61ee43b3"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/fabric-api-0.100.7+1.21.jar"
+hash = "82b36662049e901693ced47548b6ea642382ebe40d5032dee21a75d39a9f89b0"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar"
+hash = "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/ferritecore-7.0.0-fabric.jar"
+hash = "2c31200d1f5de6a3cf5edc4c3d39200636e1e060c4b548dcf8249ef487660323"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/indium-1.0.34+mc1.21.jar"
+hash = "00441dc7fc2ed77b5e21d181db0bfd14cb7aaa55ffb81c59c390c3607df54792"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/iris-1.7.3+mc1.21.jar"
+hash = "bd029ec25cb3d64d40b649702a898b7cf7e59c75309c0aba74c1f14d9af62e54"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/lithium-fabric-mc1.21-0.12.7.jar"
+hash = "424bba739e398d582b7710d235edc150b55094cb601ae5de6cdaa2ad1726b21d"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/macos-input-fixes-1.7.jar"
+hash = "0fb9573eafbc7490e8fa295a647a3e4f525fae87d41762e1c532066a50251a1e"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/memoryleakfix-fabric-1.17+-1.1.5.jar"
+hash = "b8ac33d7262e019710dd25e454116616bc9ed1f714ed910594b28a4c1da5adde"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/modmenu-11.0.1.jar"
+hash = "d2c488a94478efc8ef64941dc8aa9c45797d3875c09320a04381c91554a4dfa7"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/moreculling-1.21-0.26.0.jar"
+hash = "2373233a90b53f4edcd0a54ce1861156306d68c860cee835bddb197ab7b8103f"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/reeses_sodium_options-1.7.3+mc1.21.jar"
+hash = "f0fde16755a358684008cd9b60c4af5ef0f907b730b53b138c04bb0785a18185"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/retina-2.3.7.jar"
+hash = "be84711b92a2475b53f07f11a1ffef767636b7d3ac127b99137a0a67c907aad0"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/retino-1.0.1.jar"
+hash = "5b6176e6107bc0fe8e70d76f08db048b7ddfac1972670894ed212a60e22700e9"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/shulkerboxtooltip-fabric-5.0.4+1.21.jar"
+hash = "d2660b5af35890bd38127780c495333c0d3ed9b4dcff6b1b3f86336286b370ae"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/simple-hud-enhanced+1.21-4.7.1.jar"
+hash = "de706bd8d673fe468e818dfac563c162b31b001e7de08afc0146a0a6e477697a"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/skinlayers3d-fabric-1.6.6-mc1.21.jar"
+hash = "1d854177c6487343e232c129a481298249338b52404372b5f6dff4174f714151"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/sodium-extra-0.5.7+mc1.21.jar"
+hash = "44bba36d30cbf01001fd5d8ff697f8cf527f1df6b640f4ca7c4c40e01a5a25e7"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/sodium-fabric-0.5.11+mc1.21.jar"
+hash = "3bf1783f9081d28067457734eff52f4579b6b8378c075663784684f6f2f1aa37"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/mods/voicechat-fabric-1.21-2.5.19.jar"
+hash = "e098018010600c816f56744c4c02ef7424244140935905d889486331c98ea11b"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/resourcepacks/Highlighted Ores.zip"
+hash = "187575fc9d278e906b081afc5191db35ef26d204f155223b99cd266ce41ee009"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/resourcepacks/SodiumTranslations.zip"
+hash = "77a0fe5e7c1e552c3f77c48b097cf188e8d0415856815b1f2367d29734ff7c63"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/BSL_v8.2.09.zip"
+hash = "b9f9e70c83f04830007ec06e6d7c3e0fafe90c6af53355e4248ab0a59ca1cf48"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/ComplementaryReimagined_r5.2.2.zip"
+hash = "3b0cd5c36afebdcd74521a447ca5f2b0d6f9c1c8c8416a9f20d9bedc271a8e1c"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/MakeUp-UltraFast-9.0.zip"
+hash = "e1ab9b9045ad63a07c80bccf9e812f55895f67ce660a19ea582eafe95be3cdbf"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/RenderPearl v2.0.zip"
+hash = "f6d91aaf9b5e92259eed8e99c482936890e5555aea853c64a4eeabff9b24798a"
+
+[[files]]
+file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/Shrimple_v0.11.zip"
+hash = "864ee6d0826ead8f261bc552045bb7abe240e6e8f5a49eed6f29e057cbc656f5"
+
+[[files]]
+file = "README.md"
+hash = "5b789c7ef45147ad5c53378d19c068bff5b8d966607de11c412c49dffbee8ed4"
 
 [[files]]
 file = "config/dynamic_fps.json"
@@ -22,72 +190,77 @@ hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "4209b7c1f768202b2f70ec5ab499b26ae9d4e73cf1e855099fe5fb23db0512e5"
+hash = "6e4a1ad878793ab3c3b7df30ea8e4177a65c3632d1b35277683d6f6b333cb073"
 metafile = true
 
 [[files]]
 file = "mods/capes.pw.toml"
-hash = "617563db0d44229fb65eb660130d02d1a4d2f29233eda03b68d3273e700326f8"
+hash = "df21d4923d61c8d9199e602cca45695b7d17295fa8555f072d8d83045946ef3e"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "f250d6778f5b8d03ca32913bea5ea677508e9bb6d8201cdebe005bbe9c3100ee"
+hash = "d345d14d9672063419184ece254b77a51386160916058bb24a4af7faabc88d99"
 metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "1bfa978c09e27a1b064119a8ebe53083f63abc3625055f49f0f086a64c0222bb"
+hash = "ec5c86ca8270f882ea3ff00f88697ce2e210e6105d1cf61806f512abe5ccef53"
 metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "df7d79acf12a498c7d2c06c80417b14974e321aac61afa7e570b30330aedc764"
-metafile = true
-
-[[files]]
-file = "mods/emuno.pw.toml"
-hash = "8f0c18360533351fff9237b803b1a91fb86cc9b00d56e61f116076e654c9f8e8"
+hash = "03233a7e383409b517598e0c9d10c8a45c6035a35f163d15337a7bae044c4319"
 metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "d8141ee9ad948865c4da8594fe1e785ff6933d3f5b299234d002e2014559c0e4"
+hash = "f1cfb6d5b1aeae9d349d909fc3170f60332b6347493543a2e4f1f0801f4a5d4d"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "b2af1699d567294bf20e80fd62069f65aca68746a78655984d30332b65ebd5a4"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "bc5559ece399ce470ad9bb879827ab460b3e5c5c113b39ae18ace6c33d875d1c"
+hash = "a8800671ba62afc0a0a2bcbf4330ba7a5906f5fba7ec88b6d5afac2572ecd617"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "a856296531bab559c7dbe061827078e206b9cf194be3be618c462c62ab4fd841"
+hash = "a909422ca28880c8aa967a66ca3b89fba223a9cfc662d98592c234d22361cf33"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "4146027b92b4885fddec00435233c61c3728b5e09265982ab187021519a4fa89"
+hash = "078c828454d8a361baae372b5ee3dc33e5f3573fa19bdac8589b38da9dbc5c03"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "b411b04e1dace15c7fc1465bb161c8e621750b1577282e0918f956212a57e864"
+hash = "5158ad2f74f9aa8843552e9630c245dfe9adb3421f00fcc80a2fdc06a032b4ce"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "ec7ddc7195eaec44adb0a060c48d919bedb82775a3b683f8da21ab2eb6921ab1"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "7169f560465ba70f204d3c4189cf3d1faef8ae6cf3dc063733a4d53f612a4d94"
+hash = "315648c1b6910b274d4a16bda8eba7ddf380d928edb20c0c36f3ff9776e30fe5"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "3dedde5213176d72e1c353877fa44315945e8f3da2ba05f5679d81e9f558bb1d"
+hash = "019e6f258127d947cf0b43227c198365b107e35d4e16e29ee8388986aaf62d77"
 metafile = true
 
 [[files]]
 file = "mods/macos-input-fixes.pw.toml"
-hash = "6f608fc4e861f6156368b2a3b706645755030bf6a04dc1f59166c8b22cba872c"
+hash = "f14660be4c4cbc78a43756aafe528e956851119fcc5023139e82c18f8c520082"
 metafile = true
 
 [[files]]
@@ -97,17 +270,17 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "b61b0ccdc8328d637c0f57cbb25258491b94ae03c89c4194ad6ca8b86579dd28"
+hash = "e37792db4c4b69e11243c7470f0f2a791dc016381e460cd5616eccb6b567b5ab"
 metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "ef9c4bc27256d065df4feaba2bc05883ba22987c41cd48786070d37ae85cc8e1"
+hash = "cce89b418e7dd00df7d58eb6556472385aff2f2934c4bfde1b7a2dcd3b1d17cc"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "975478c93b1218131fd48695cd7efb9bbe0d69125409940b015a7058e42fb6be"
+hash = "c497424b603b0b9fc190427fd7aa0985d23a74f4cba6c554e14f7dbd29385df2"
 metafile = true
 
 [[files]]
@@ -122,70 +295,70 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "f43c022a952f3d81a8b722897a686f53de82cb953189d5eb17c4049b3fcf1727"
+hash = "45910a70021a8db0da310c1255a255402b052d53c944ecb9159d29e7c0e6db45"
 metafile = true
 
 [[files]]
 file = "mods/simple-hud-enhanced.pw.toml"
-hash = "d3bc06dd8262a1eb190f9cd6105d349d167d28ce59c99b0ae0ca2cf0d44a2d60"
+hash = "fbdd94689f70b5e1953c80f163378c0b78d07e234454160d4277edcd93b35c9e"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "059df7bf0778fea18e3da18f0040344611d34edec58e4a0bc8abb41d21747b2d"
+hash = "05e20dd882685733b299c1db03423f665c569f4c57b8404af98c5bb30776fefd"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "f7c09e537f9db67804dd7df6b8ba3a0cfb63429ad992a99e8f8faba33187ded2"
+hash = "28f2167da063c1be7b1f4e534cdcbb446daa569cc32ffe1c0705663a9a06a5b9"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "5e73967368d47038c38dc52fa298b45603fbe6baf2608f171638ff767178ad9a"
+hash = "280cf7ad4ec95bd95eef81a7f327095c5f40e1b8aa45cea91284bfd19395d69e"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "0e64714c116db266b1c35b0fea980d0ad75ddee7639d13f89d5cedf6c7e336e7"
+hash = "7f7768f2047011ed61c9bbec29bbcd2d06c5eb8ab731d442b9ecc2c01bbc8c6b"
 metafile = true
 
 [[files]]
 file = "resourcepacks/highlighted-ores-texturepack.pw.toml"
-hash = "d5ff09a20a8bd6c2781de45d5b6b3d5796bd14e0e17d1d9b7c91d7750a2a4c19"
+hash = "9a7b017d447a6d793edbb932f42fa59adc19d69ac2ac93bf6f431a145a873110"
 metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "1b25aac5237d18b53a5d0f1eb11521e7ddb66740903d2e129a20c40e06bde876"
+hash = "03964b6397d312d899898cfd06019a1e62725df060b19745f4a0993bd9f18197"
 metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "68b79902d98bc38e4705b621dcc54321e35742f696b462070d457cf7156d7921"
-metafile = true
-
-[[files]]
-file = "shaderpacks/builders-qol-shaders.pw.toml"
-hash = "a0871b16400a5341d8da6567f1d3fb435124c19b0f06bde2a396a90bbf401b35"
+hash = "41fbddad14b67a342e35eb7d2c96cfb555014c0f9c0e1e2866a3d2516a33c971"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "1e9f9f7053c256baf766dddba7a1f929634f5629c6787ae4ff1f117159232c22"
+hash = "88e40e1591ad381291207cce0d547507ae6ca44893185a1e7ef37b7b86f29e57"
 metafile = true
 
 [[files]]
 file = "shaderpacks/ls-renderpearl.pw.toml"
-hash = "0d04e76d46a88daf4ae1d8b4766d461955713447316b5670f4487f6a06c68cd1"
+hash = "25bed0ba91ef3dc762d87cb0b1bb59de98e9e2c84dedfc360fefa3b144ef194c"
 metafile = true
 
 [[files]]
 file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
-hash = "201eb66d6fe70a24e16d3105017990832893b1d3080e666dfe63951253021217"
+hash = "23c2b350490edfc465d231395bbf0e1951d0f80f7fa1a9af14e5223d50b7963e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/renderpearl.pw.toml"
+hash = "855b6f14cf939ad6bda1bccc073709f73624318f6264885e12415f09c22d3669"
 metafile = true
 
 [[files]]
 file = "shaderpacks/shrimple.pw.toml"
-hash = "49e6dfd941f8111e02f515b314516dfaddf70b9410429330e56ef69828d31394"
+hash = "5278e03c761883c72be4f3afb5c06119e2cfc333ed80a1608734d922e070619f"
 metafile = true
