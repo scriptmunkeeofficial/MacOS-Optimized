@@ -5,178 +5,6 @@ file = "LICENSE"
 hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
 
 [[files]]
-file = "Mac OS Optimized-1.1.0.mrpack.old"
-hash = "497baaa2cc17c64ed66d9c5548c45f828e5aefdfe6c643d9ac2005975bfcb553"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/manifest.json"
-hash = "5e96e2afe953157f11f743f4b47895a4d71f382914552898c221c9a6b2191b09"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/modlist.html"
-hash = "b38c47dbd38e594a219ed4ad70d99f4e71b161c8576577323cd801080b3ecff5"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/LICENSE"
-hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/README.md"
-hash = "dbab81b7ae3b7c6cc8b3cf3b035a421629520d4bbbc34a1b88f8b84ecafe0b78"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/config/dynamic_fps.json"
-hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/config/shulkerboxtooltip.json5"
-hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/config/simplehudenhanced.toml"
-hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/Clumps-fabric-1.21-18.0.0.1.jar"
-hash = "7e51939a9b25f417c05d63ed227af4d9ae767300b5e2217be1ddd35de1ce7f65"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/ImmediatelyFast-Fabric-1.2.18+1.21.jar"
-hash = "ae8da6c4d5189182ded736a28358f1f9b7b8a51b572ebf7fce2039e40ed0af7a"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/YetAnotherConfigLib-3.5.0+1.21-fabric.jar"
-hash = "3f9985e8ea65f18d36bf500802d6a39789f067f2dcbc1480ef6570c1ff7fde04"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/capes-1.5.4+1.21-fabric.jar"
-hash = "ed7f2384319bd2e4804713a98d3bfd081c2f701f57db3629d3991dd22c138351"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/cloth-config-15.0.127-fabric.jar"
-hash = "741723c951e552f91149bd105a6d4692d311e57586253b637b003bc1ad94248b"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/dynamic-fps-3.6.0+minecraft-1.21.0-fabric.jar"
-hash = "c71ac51aa1e5fbc77a2fa2b8ead933511d414c125a6fe7094e6a3cc73669f703"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/entity_texture_features_fabric_1.21-6.1.3.jar"
-hash = "71880e076a85e4a3f4a1edc746c693aeeee2e6bba5e1f6c3d674ed51a0aee314"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/entityculling-fabric-1.6.6-mc1.21.jar"
-hash = "68b33c4d999860438235b2666c8f6b12ab71bd05c7ab00bf659c0fca61ee43b3"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/fabric-api-0.100.7+1.21.jar"
-hash = "82b36662049e901693ced47548b6ea642382ebe40d5032dee21a75d39a9f89b0"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar"
-hash = "e4f2b0d53a270601e3debd5dcc23ea769f051d30e02692e02a1eb013184505f6"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/ferritecore-7.0.0-fabric.jar"
-hash = "2c31200d1f5de6a3cf5edc4c3d39200636e1e060c4b548dcf8249ef487660323"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/indium-1.0.34+mc1.21.jar"
-hash = "00441dc7fc2ed77b5e21d181db0bfd14cb7aaa55ffb81c59c390c3607df54792"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/iris-1.7.3+mc1.21.jar"
-hash = "bd029ec25cb3d64d40b649702a898b7cf7e59c75309c0aba74c1f14d9af62e54"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/lithium-fabric-mc1.21-0.12.7.jar"
-hash = "424bba739e398d582b7710d235edc150b55094cb601ae5de6cdaa2ad1726b21d"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/macos-input-fixes-1.7.jar"
-hash = "0fb9573eafbc7490e8fa295a647a3e4f525fae87d41762e1c532066a50251a1e"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/memoryleakfix-fabric-1.17+-1.1.5.jar"
-hash = "b8ac33d7262e019710dd25e454116616bc9ed1f714ed910594b28a4c1da5adde"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/modmenu-11.0.1.jar"
-hash = "d2c488a94478efc8ef64941dc8aa9c45797d3875c09320a04381c91554a4dfa7"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/moreculling-1.21-0.26.0.jar"
-hash = "2373233a90b53f4edcd0a54ce1861156306d68c860cee835bddb197ab7b8103f"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/reeses_sodium_options-1.7.3+mc1.21.jar"
-hash = "f0fde16755a358684008cd9b60c4af5ef0f907b730b53b138c04bb0785a18185"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/retina-2.3.7.jar"
-hash = "be84711b92a2475b53f07f11a1ffef767636b7d3ac127b99137a0a67c907aad0"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/retino-1.0.1.jar"
-hash = "5b6176e6107bc0fe8e70d76f08db048b7ddfac1972670894ed212a60e22700e9"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/shulkerboxtooltip-fabric-5.0.4+1.21.jar"
-hash = "d2660b5af35890bd38127780c495333c0d3ed9b4dcff6b1b3f86336286b370ae"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/simple-hud-enhanced+1.21-4.7.1.jar"
-hash = "de706bd8d673fe468e818dfac563c162b31b001e7de08afc0146a0a6e477697a"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/skinlayers3d-fabric-1.6.6-mc1.21.jar"
-hash = "1d854177c6487343e232c129a481298249338b52404372b5f6dff4174f714151"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/sodium-extra-0.5.7+mc1.21.jar"
-hash = "44bba36d30cbf01001fd5d8ff697f8cf527f1df6b640f4ca7c4c40e01a5a25e7"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/sodium-fabric-0.5.11+mc1.21.jar"
-hash = "3bf1783f9081d28067457734eff52f4579b6b8378c075663784684f6f2f1aa37"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/mods/voicechat-fabric-1.21-2.5.19.jar"
-hash = "e098018010600c816f56744c4c02ef7424244140935905d889486331c98ea11b"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/resourcepacks/Highlighted Ores.zip"
-hash = "187575fc9d278e906b081afc5191db35ef26d204f155223b99cd266ce41ee009"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/resourcepacks/SodiumTranslations.zip"
-hash = "77a0fe5e7c1e552c3f77c48b097cf188e8d0415856815b1f2367d29734ff7c63"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/BSL_v8.2.09.zip"
-hash = "b9f9e70c83f04830007ec06e6d7c3e0fafe90c6af53355e4248ab0a59ca1cf48"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/ComplementaryReimagined_r5.2.2.zip"
-hash = "3b0cd5c36afebdcd74521a447ca5f2b0d6f9c1c8c8416a9f20d9bedc271a8e1c"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/MakeUp-UltraFast-9.0.zip"
-hash = "e1ab9b9045ad63a07c80bccf9e812f55895f67ce660a19ea582eafe95be3cdbf"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/RenderPearl v2.0.zip"
-hash = "f6d91aaf9b5e92259eed8e99c482936890e5555aea853c64a4eeabff9b24798a"
-
-[[files]]
-file = "Mac OS Optimized-1.1.0/overrides/shaderpacks/Shrimple_v0.11.zip"
-hash = "864ee6d0826ead8f261bc552045bb7abe240e6e8f5a49eed6f29e057cbc656f5"
-
-[[files]]
-file = "Mac OS Optimized-1.1.1.mrpack.old"
-hash = "8579b41044955dd48b7852ef7a8024c1ad31012a6c8314aa8e7c0cac63b1e4fb"
-
-[[files]]
 file = "README.md"
 hash = "4619d6604a53d92323d84e7f0dfb8328a58b5f3369206efe6c61dc6fbc7398ee"
 
@@ -191,6 +19,10 @@ hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
 [[files]]
 file = "config/simplehudenhanced.toml"
 hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+
+[[files]]
+file = "icon.png"
+hash = "24f6f6d262fe028ec4b3931ac4e720848d0e725afb00f8d64841c4df3cdc09c8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -334,36 +166,8 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "39b9cfd7a245df1da2d93c2a9700f13e3387c63377f76ce1c3ff1996e2378aa0"
+hash = "3bce452c7c4111016d248ef8fcc14f38b94d56936578e0f1bc305388f651511b"
 metafile = true
-
-[[files]]
-file = "resources/logos/optimized-macos-1-trimmed.jpeg"
-hash = "c56bee2f993ae23d1539b087036b266734ef282989b5002cca77d0ee47c1f59e"
-
-[[files]]
-file = "resources/logos/optimized-macos-1.jpeg"
-hash = "e4441ec815a16826b2af0c58613fd63a78cec98b968ce6e2bae60dce07a7f8ca"
-
-[[files]]
-file = "resources/logos/optimized-macos-1.xcf"
-hash = "85c1982b80e2ca8d6ed19b3e0695fafaefaf295d8dea6619c00a6d9da98ce551"
-
-[[files]]
-file = "resources/logos/optimized-macos-2.jpeg"
-hash = "e2519153d88dc1960d2a4b73ffd43ce3b5cc6d542bd9af5b6ed6f4bf6e2de7f7"
-
-[[files]]
-file = "resources/logos/optimized-macos-3.jpeg"
-hash = "e3afe54fec74c83be88219eb0e55cb7d1ef30058d7a5cd417e1f21de3db4dda2"
-
-[[files]]
-file = "resources/mini-hub-cropped.png"
-hash = "584a7d2061416e533b215c93e82e716fdf76989f88e4b7cf22bcf06f3a047f20"
-
-[[files]]
-file = "resources/sample-view.png"
-hash = "9503f0f2e4af694b2ced9be0e758ff29ed4b7d2f8482c57213b165b3d5163436"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
