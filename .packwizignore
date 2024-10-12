@@ -4,8 +4,10 @@
 # packwiz
 *.mrpack
 *.mrpack.old
-*.zip
+
+# Directories
 Mac\ OS\ Optimized-*
+resources/
 
 # macos
 *.DS_Store
