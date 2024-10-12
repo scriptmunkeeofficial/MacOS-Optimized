@@ -3,6 +3,7 @@
 
 # packwiz
 *.mrpack
+*.mrpack.old
 *.zip
 
 # macos
