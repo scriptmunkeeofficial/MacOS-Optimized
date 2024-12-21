@@ -2,6 +2,7 @@
 .evn
 
 # packwiz
+builds/
 *.mrpack
 *.mrpack.old
 *.zip

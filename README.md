@@ -7,8 +7,9 @@ A Fabric based Modpack for those that play Minecraft on MacOS
 ### Dependencies
 
 - [packwiz](https://packwiz.infra.link/)
-- [GO](https://go.dev/)
-- Modrinth Launcher
+- [GO](https://go.dev/dl/)
+- [Modrinth Launcher](https://modrinth.com/app)
+- Make
 
 ### Steps to package updates
 
@@ -20,3 +21,7 @@ A Fabric based Modpack for those that play Minecraft on MacOS
 ### Steps to package modpack
 
 - Run `packwiz modrinth export`
+
+choosing where to output the package
+
+Run `packwiz modrinth export -o ../builds/Mac\ OS\ Optimized-1.1.1-test.mrpack`

@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
-
-[[files]]
-file = "README.md"
-hash = "4619d6604a53d92323d84e7f0dfb8328a58b5f3369206efe6c61dc6fbc7398ee"
-
-[[files]]
 file = "config/dynamic_fps.json"
 hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
 
@@ -19,10 +11,6 @@ hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
 [[files]]
 file = "config/simplehudenhanced.toml"
 hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
-
-[[files]]
-file = "icon.png"
-hash = "24f6f6d262fe028ec4b3931ac4e720848d0e725afb00f8d64841c4df3cdc09c8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
