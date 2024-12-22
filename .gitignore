@@ -1,0 +1,12 @@
+# general files
+.evn
+
+# packwiz
+builds/
+*.mrpack
+*.mrpack.old
+*.zip
+Mac\ OS\ Optimized-*
+
+# macos
+*.DS_Store

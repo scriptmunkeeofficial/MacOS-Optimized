@@ -1,0 +1,13 @@
+name = "Translations for Sodium"
+filename = "SodiumTranslations.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yfDziwn1/versions/jSZSOlid/SodiumTranslations.zip"
+hash-format = "sha1"
+hash = "eaae56bb75db00956974624af8f7d615de0d1612"
+
+[update]
+[update.modrinth]
+mod-id = "yfDziwn1"
+version = "jSZSOlid"
