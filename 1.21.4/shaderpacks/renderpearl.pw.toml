@@ -1,0 +1,13 @@
+name = "RenderPearl"
+filename = "RenderPearl v2.1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BrRak9pu/versions/SvVwXQ8A/RenderPearl%20v2.1.2.zip"
+hash-format = "sha1"
+hash = "dda610bf915aba259fb2a511660e72b13f173c96"
+
+[update]
+[update.modrinth]
+mod-id = "BrRak9pu"
+version = "SvVwXQ8A"
