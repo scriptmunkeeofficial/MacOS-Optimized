@@ -1,0 +1,13 @@
+name = "Mellow"
+filename = "Mellow Shader v1.5.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BUxf36AP/versions/iJbQtaVo/Mellow%20Shader%20v1.5.3.zip"
+hash-format = "sha512"
+hash = "8a7441433a32ac1784d8894ba09bcca91a83b183c7854ec41c82a6b59ed217fba2c2ebfc28e9c45e77d7d6c57454bdd53081f97dcfd2aa329659887a78f71b68"
+
+[update]
+[update.modrinth]
+mod-id = "BUxf36AP"
+version = "iJbQtaVo"
