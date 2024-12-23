@@ -1,16 +1,16 @@
 name = "Mac OS Optimized"
 author = "scriptmunkee"
-version = "1.1.1"
+version = "1.1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3d73368510f09455bb1fd9f2b899e12d96a37a94fc7539a5be8a80371ffdc121"
+hash = "c6240195aadd022baa18498ff4af0e77491f50b34b6cf0e8156cd47f826cebf7"
 
 [versions]
-fabric = "0.16.7"
-minecraft = "1.21.1"
+fabric = "0.16.9"
+minecraft = "1.21.4"
 
 [options]
-acceptable-game-versions = ["1.21.1", "1.21"]
+acceptable-game-versions = ["1.21.3", "1.21.1"]

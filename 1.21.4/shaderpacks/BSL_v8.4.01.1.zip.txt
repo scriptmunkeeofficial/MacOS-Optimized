@@ -1,0 +1,6 @@
+#Wed Dec 11 22:50:43 EST 2024
+LIGHT_SHAFT=false
+SHADOW_COLOR=false
+TAA=false
+shadowDistance=192.0
+shadowMapResolution=1536
