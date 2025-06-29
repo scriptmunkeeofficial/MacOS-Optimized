@@ -1,0 +1,102 @@
+toggleEffectsStatus = true
+colorMode = "Effect"
+toggleMovementStatus = false
+toggleEquipmentStatus = true
+
+[uiConfig]
+toggleSimpleHUDEnhanced = true
+textColor = 16777215
+textBackground = false
+textScale = 100
+textAlignment = "Left"
+
+[statusElements]
+Xcords = 0
+Ycords = 0
+toggleLightLevel = true
+toggleBiome = true
+togglePlayerName = false
+togglePing = false
+toggleTPS = false
+toggleServerName = false
+toggleServerAddress = false
+
+[statusElements.coordinates]
+toggleCoordinates = true
+toggleDirection = true
+toggleOffset = true
+toggleNetherCoordinateConversion = false
+
+[statusElements.fps]
+toggleFPS = true
+toggleColourFPS = false
+
+[statusElements.playerSpeed]
+togglePlayerSpeed = true
+togglePlayerVerticalSpeed = false
+
+[statusElements.gameTime]
+toggleGameTime = true
+toggleGameTime24Hour = false
+
+[statusElements.systemTime]
+toggleSystemTime = true
+textScale = 100
+textBackground = false
+toggleSystemTime24Hour = false
+
+[effectsStatus]
+backgroundColor = -2147483648
+beneficialForegroundColor = -2130706433
+harmfulForegroundColor = -2130706433
+neutralForegroundColor = -2130706433
+
+[movementStatus]
+toggleMovementStatus = true
+textScale = 100
+movementStatusLocationX = 0
+movementStatusLocationY = 90
+
+[movementStatus.movementTypes]
+toggleSprintStatus = true
+toggleSneakStatus = true
+toggleFlyingStatus = true
+toggleSwimmingStatus = true
+
+[paperDoll]
+togglePaperDoll = true
+textScale = 100
+paperDollLocationX = 100
+paperDollLocationY = 0
+
+[equipmentStatus]
+showCount = true
+showNonTools = true
+textScale = 90
+equipmentOrientation = "Vertical"
+equipmentAlignment = "Auto"
+equipmentStatusLocationX = 0
+equipmentStatusLocationY = 35
+
+[equipmentStatus.Durability]
+showDurability = true
+showTotalCount = false
+showDurabilityAsPercentage = false
+showColour = true
+showDurabilityAsBar = true
+
+[equipmentStatus.Durability.slots]
+Head = true
+Body = true
+Legs = true
+Boots = true
+OffHand = true
+MainHand = true
+
+[equipmentStatus.slots]
+Head = true
+Body = true
+Legs = true
+Boots = true
+OffHand = true
+MainHand = true
