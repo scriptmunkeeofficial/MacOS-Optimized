@@ -1,13 +1,13 @@
 name = "Simple HUD Enhanced"
-filename = "simple-hud-enhanced+1.21.5-4.7.5.jar"
+filename = "simple-hud-enhanced+1.21.6-4.7.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/PE656UHx/versions/nQ0h3Ymc/simple-hud-enhanced%2B1.21.5-4.7.5.jar"
+url = "https://cdn.modrinth.com/data/PE656UHx/versions/J3RjNrsj/simple-hud-enhanced%2B1.21.6-4.7.5.jar"
 hash-format = "sha512"
-hash = "352f0dcaacd6b48e46d89ec9ed01f713048e1fc7191dd5b6386a96db20f16a1222cf1f81e108d3925ea8f93fc2a86daeaa85173b5c45df63ee60d2c72c9e43f4"
+hash = "9b9977f7684cb1b1e82fd61c00914de111c2ccf3e261bf1adc9eed04a895da96e8114cb2d5a9f3c2113b9b3ded90b8e40d339b3d5fab16a04bf7556374db10f5"
 
 [update]
 [update.modrinth]
 mod-id = "PE656UHx"
-version = "nQ0h3Ymc"
+version = "J3RjNrsj"

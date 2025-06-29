@@ -1,6 +1,7 @@
 name = "Shrimple"
 filename = "Shrimple_v0.12.zip"
 side = "client"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/BS9T99lD/versions/tAx0UOBX/Shrimple_v0.12.zip"

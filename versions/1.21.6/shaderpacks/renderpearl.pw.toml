@@ -1,13 +1,13 @@
 name = "RenderPearl"
-filename = "RenderPearl v2.2.0-beta.8.1.zip"
+filename = "RenderPearl v2.2.0.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/BrRak9pu/versions/dQSP8VxX/RenderPearl%20v2.2.0-beta.8.1.zip"
+url = "https://cdn.modrinth.com/data/BrRak9pu/versions/YkvR6ipz/RenderPearl%20v2.2.0.zip"
 hash-format = "sha512"
-hash = "ddb703bbc3934e997962bfc90cede07896f64aa0da06c6189776331c865067968721e941335c7631467b61a1c5344bb4ffa7b5b44d7e7803e2926aadb588e3f7"
+hash = "ef095248c5b2d16ca0966f2db372d36ec599e5458bb89dd0b9d8422228dff51472c8a37b1243f632f8ff098ccbc833eb0bfae665a5fb8bdd4e312d2bb4c901ac"
 
 [update]
 [update.modrinth]
 mod-id = "BrRak9pu"
-version = "dQSP8VxX"
+version = "YkvR6ipz"
