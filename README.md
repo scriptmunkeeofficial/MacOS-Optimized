@@ -16,21 +16,22 @@ A Fabric based Modpack for those that play Minecraft on MacOS
 - Copy previous version folder to the newest foler version
   - *Example*: `cp versions/1.21.4 versions/1.21.5`
 - CD into the new version directory
-- Edit `pack.toml` and update the **version** to the newest value
-- Run `packwiz refresh`
 
-#### Option1 - Automated 
+#### Option1 - Automated
+- Edit `pack.toml` and update the version to the current release version (i.e. 1.1.3)
+- Save Change and exit editor
 - Run `packwize migrate minecraft <version>`
   - Respond to prompt to update Fabric loader
   - Respond to prompt to update mods
 
-
 #### Option2 - Manual
-- Edit `pack.toml` with the latest versions of fabric loader and Minecraft (see References)
+- Edit `pack.toml`
+  - update the version to the current release version (i.e. 1.1.3)
+  - update to the latest versions of fabric loader and Minecraft (see References)
+- Save Change and exit editor
 - Run `packwiz refresh`
 - Run `packwiz update --all`
 - Then review the results and make adjustments where needed
-
 
 ### Steps to Package Modpack
 
