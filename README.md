@@ -17,14 +17,16 @@ A Fabric based Modpack for those that play Minecraft on MacOS
   - *Example*: `cp versions/1.21.4 versions/1.21.5`
 - CD into the new version directory
 
-#### Option1 - Automated
+#### Option 1 - Automated
+
 - Edit `pack.toml` and update the version to the current release version (i.e. 1.1.3)
 - Save Change and exit editor
 - Run `packwize migrate minecraft <version>`
   - Respond to prompt to update Fabric loader
   - Respond to prompt to update mods
 
-#### Option2 - Manual
+#### Option 2 - Manual
+
 - Edit `pack.toml`
   - update the version to the current release version (i.e. 1.1.3)
   - update to the latest versions of fabric loader and Minecraft (see References)
@@ -45,9 +47,10 @@ A Fabric based Modpack for those that play Minecraft on MacOS
 
 
 ### Make file notes
+
 - copy or include image.png & license file to new folder
 - need a way to only have one command with output folder
-  - `packwiz modrinth export -o ../builds/Mac\ OS\ Optimized-1.1.1-test.mrpack`
+  - `packwiz modrinth export -o ../../builds/Mac\ OS\ Optimized-1.1.1-test.mrpack`
 
 
 ### References
