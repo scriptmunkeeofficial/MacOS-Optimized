@@ -1,6 +1,7 @@
 name = "retiNO"
 filename = "retino-1.0.1.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/z7dmZ4nL/versions/1.0.1/retino-1.0.1.jar"
