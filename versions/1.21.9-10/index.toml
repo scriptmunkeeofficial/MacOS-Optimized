@@ -1,0 +1,209 @@
+hash-format = "sha256"
+
+[[files]]
+file = "LICENSE"
+hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
+
+[[files]]
+file = "config/dynamic_fps.json"
+hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "6e961d971f43e378643ce2a6101bc8899c63c77c661098bf6af3555b5b1dec57"
+
+[[files]]
+file = "config/iris.properties"
+hash = "58b430fdfb0b240a579f55366de837dbfafce93a9e0f22d868d38bc718bf8a88"
+
+[[files]]
+file = "config/shulkerboxtooltip.json5"
+hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
+
+[[files]]
+file = "config/simplehudenhanced.toml"
+hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+
+[[files]]
+file = "config/zoomify.json"
+hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
+
+[[files]]
+file = "icon.png"
+hash = "24f6f6d262fe028ec4b3931ac4e720848d0e725afb00f8d64841c4df3cdc09c8"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "7cfd3485931eb237e346fbda606b4b28663e9d3b3efa56d37c69355681f0a1d8"
+metafile = true
+
+[[files]]
+file = "mods/capes.pw.toml"
+hash = "bfa3ef713975bd287cdddd1afb713ed0f16326427cf2d78af4030f8b21b95be3"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "a216e613b5ada8a83972394c8b52331388f6d3e41187a04c3bced3f1752bea70"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "dff937930734d00e3cd2c644d20d5015df3ad53cc9d23fae2704326774cadbad"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "84f74d4abc0ece0ed9f62d9454d35415ace97e0aa83ed3e8a2d1ff7167b45999"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "f9b05ef1c6fb7e4d1c44b9468d7deacfe493d9f34182587e21ef1cb696fc677e"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "098d6976a738658ca490cc58e9fab19f06cd1a7b23199b6f1ee108d866333e22"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "fbf9806c22ee5bccbe08f7dec15b742f5ae3a70caf186d6dce0d42f28790f559"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "ce1a109ba7d2637596ab6b7c001716437e1bef89f337dc3fb31ca950a46e79c3"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "f9acd9fa6c8e3e28c54f196c3840ae9227265a966d511e21be5056951706ea00"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "e10c94949bb58b8cfa9993a9f60c9283d5858d4d55fc450dbff2953644f45047"
+metafile = true
+
+[[files]]
+file = "mods/ly-clumps.pw.toml"
+hash = "d837a3c064e1306d7512e50dd812b868c4410f506b2eba850bd1c4d62b4c7e51"
+metafile = true
+
+[[files]]
+file = "mods/macos-input-fixes.pw.toml"
+hash = "e4562622be1286bf8f2c8af9e3fc4e6052c9cd51c67c70f2bfce0fd9d26c31bb"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "6eea5e1db3dbca126b82f211bf0d2fcf2cf13097023fdef3dd668e48581a73d0"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "70676593e513e1499486765b8f654cb5034a20a2642a3bcc61a6f57c9d985972"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "88f9a71bf06f4959b220abab8542e4763747903e9e5ef150c38ae79c83870077"
+metafile = true
+
+[[files]]
+file = "mods/retino.pw.toml"
+hash = "512c2bd9b6cd2a1e25c362734d5b7cdb98663daed6efd0075bff9d523471b70b"
+metafile = true
+
+[[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "bcaa1650a5c5cb79e1063ba3d5bd5bf0ab3d78b8e0199e217a42617f8225a8cc"
+metafile = true
+
+[[files]]
+file = "mods/simple-hud-enhanced.pw.toml"
+hash = "1b6c2fb845819da1d5b34691543e2a47c5404bced80d5386f7923452c9a74f75"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "75450d4d7139edebd35377d96e7267c777d53faf9f11d46f48c10044308336b0"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "d3ce7c562cb2d457391f3ea7992f1018055544035097547d9bc2d30b7429c8ea"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "1745f4ec1732e16be5f2c88780a66ca2a94c76c06c5e862db0b2c6cf63b16a47"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "ce4cf8a29687bfc87e3628eaaf0fb688c158f51d63bc4f69990465231176331c"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "33a6300bdf82bd4297aeba3c660ebb0f0993121b97f0824a939468e4dcb81d15"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "774c799258eae62af9b05a0cedd127d13c5b71729ddde2ac4e04b66a0bebe62d"
+
+[[files]]
+file = "resourcepacks/highlighted-ores-texturepack.pw.toml"
+hash = "cbb6a5ba45b70ee9b2060ec7f41ddec7f5d37f11b1838e381dc359be5cba86b5"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+hash = "4116187bb8f8aeb89a37c81eb34fbb1a6c71f69a718b21531769e447a7fb1c8a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/BSL_v8.4.01.1.zip.txt"
+hash = "7b058f9c5daf7dda4edaf24d2755c5462e17bc64beb221d895a572da24e701e4"
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
+hash = "db3007e30cb67eee638e262505eed982f9ac28dceae31ba3d183b551f2fafc24"
+
+[[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
+hash = "dcb1f267a0a228ed75b11f0911c558ce32205431161bec449c7e73ca1de2216b"
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "d30923bf5cfb4988a372508cb461d8077609d79a38d0b170785804c7ad15f16e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "3385e33cb8e2cbf402562dcb68669cc2905fec01b4be9fe27a516010c5aaff87"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "9025311f42fe8ab581987962c9c6b3ec5a50f5afc803e9d867dc580cb0b66190"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "98146b3c9311635f180bfd250781986b88516f930ee652fcbd234788b64ba3b6"
+metafile = true
+
+[[files]]
+file = "shaderpacks/mellow.pw.toml"
+hash = "0cd2625b1cc977026eac16c779be842cf349ff005cca2bf2f89e0fcc4448f645"
+metafile = true
+
+[[files]]
+file = "shaderpacks/miniature-shader.pw.toml"
+hash = "a6ae49ca7aa58f2e8997eed4bcbb7524fb3e5422567c7d964568e2696d8f303e"
+metafile = true
