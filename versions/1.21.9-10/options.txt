@@ -6,7 +6,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.0
+fov:0.5
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -16,7 +16,7 @@ fullscreen:false
 gamma:0.5
 graphicsMode:1
 guiScale:3
-maxFps:260
+maxFps:120
 inactivityFpsLimit:"afk"
 mipmapLevels:4
 narrator:0
@@ -51,8 +51,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/Highlighted Ores.zip","black_icons"]
-incompatibleResourcePacks:["yet_another_config_lib_v3","file/Highlighted Ores.zip"]
+resourcePacks:["vanilla","fabric","file/Highlighted Ores.zip","file/SodiumTranslations.zip","black_icons"]
+incompatibleResourcePacks:["file/Highlighted Ores.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
