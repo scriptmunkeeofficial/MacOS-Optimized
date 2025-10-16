@@ -49,7 +49,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "15c1503ad4b832881e1f33550c1f613dc414d06d138a9362ebe5eaf949100d1c"
+hash = "c9498b99c90e67bcb6b9d8fae3cee6deb6c1ddd92fb5dc6f3493737266dec21b"
 metafile = true
 
 [[files]]
@@ -124,7 +124,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-hud-enhanced.pw.toml"
-hash = "d9bd203304b0ad45a43b2dbe1fc60b6a800f58c80d418a4cb5499969625e13ff"
+hash = "27e5f5b43aa1f108b31f19b15c2bc708044eb23b28f2a7ba4726b014243a9ea3"
 metafile = true
 
 [[files]]
