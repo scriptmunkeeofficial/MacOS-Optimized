@@ -1,0 +1,13 @@
+name = "Miniature Shader"
+filename = "miniature-shader-2.18.4.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UaS8ROxa/versions/lAjiQ57F/miniature-shader-2.18.4.zip"
+hash-format = "sha512"
+hash = "573dae48339fc8d9ed78219257cc358c35762a992e89038e528aeeaa208fbca12fea2349e07b46cb6d5d403c3ee4864006a2faa60128e5973d1e2761e674d722"
+
+[update]
+[update.modrinth]
+mod-id = "UaS8ROxa"
+version = "lAjiQ57F"
