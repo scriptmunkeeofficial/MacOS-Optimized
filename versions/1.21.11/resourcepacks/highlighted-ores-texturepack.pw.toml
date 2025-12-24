@@ -1,0 +1,14 @@
+name = "Highlighted Ores Texturepack"
+filename = "Highlighted Ores.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/MpsPe6EI/versions/XXnHzaE1/Highlighted%20Ores.zip"
+hash-format = "sha1"
+hash = "6d46763e842590adb7483db993c856804cb466b9"
+
+[update]
+[update.modrinth]
+mod-id = "MpsPe6EI"
+version = "XXnHzaE1"
