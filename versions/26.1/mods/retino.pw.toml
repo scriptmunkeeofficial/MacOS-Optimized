@@ -1,0 +1,14 @@
+name = "retiNO"
+filename = "retino-1.0.1.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/z7dmZ4nL/versions/1.0.1/retino-1.0.1.jar"
+hash-format = "sha1"
+hash = "8f5412e647d345cff1bb7d85a645d50768ca294b"
+
+[update]
+[update.modrinth]
+mod-id = "z7dmZ4nL"
+version = "gyLsjEk8"
