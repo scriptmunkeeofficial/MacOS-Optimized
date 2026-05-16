@@ -1,4 +1,4 @@
-version:4325
+version:4790
 ao:true
 biomeBlendRadius:2
 enableVsync:true
@@ -23,6 +23,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
+cloudRange:24
 renderDistance:12
 simulationDistance:12
 screenEffectScale:1.0
