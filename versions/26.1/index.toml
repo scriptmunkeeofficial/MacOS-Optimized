@@ -5,16 +5,12 @@ file = "LICENSE"
 hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
 
 [[files]]
-file = "config/dynamic_fps.json"
-hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
-
-[[files]]
 file = "config/entityculling.json"
-hash = "6e961d971f43e378643ce2a6101bc8899c63c77c661098bf6af3555b5b1dec57"
+hash = "83e749c04b348fc081037ce221cdcd1ebec6341d9545472f9e87e52dbafe723f"
 
 [[files]]
 file = "config/iris.properties"
-hash = "256478909100709ea9b31544fa7737bf45e639b64a0d11477a450e718ba875ca"
+hash = "5d1c13f5cf91b68b275f8361c12a00557b938361a4cb65d21ec9019d39a61f40"
 
 [[files]]
 file = "config/shulkerboxtooltip.json5"
@@ -22,11 +18,11 @@ hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
 
 [[files]]
 file = "config/simplehudenhanced.toml"
-hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+hash = "067a6fa02fa4690764651f544bf674d716ed5c31f71a2656a44e1b3da00bc217"
 
 [[files]]
 file = "config/zoomify.json"
-hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
+hash = "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36"
 
 [[files]]
 file = "icon.png"
