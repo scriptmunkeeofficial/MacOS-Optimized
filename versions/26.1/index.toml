@@ -154,7 +154,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "c7e40208bdfadba280dc2f14a94c3721e67b37dca8cc5ca17b9483944f59eb07"
+hash = "158a47598762013693361371e444141ea7a6480a770cb466ecba9560bb05bb4d"
 
 [[files]]
 file = "resourcepacks/highlighted-ores-texturepack.pw.toml"
