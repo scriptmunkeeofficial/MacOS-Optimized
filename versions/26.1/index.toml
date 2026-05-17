@@ -38,6 +38,11 @@ hash = "8c8f44ed74ea93a496ac1d476ab71b59b0b15a780d5ab60e5559ef637105ee6d"
 metafile = true
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "3a7f685358fe4eda8dc265f2d350c05e2cbc8c7a661e1d9676e72a02bc044a2b"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "5979da4f06033b5fd04d935c33e6bf3b6124dfcd23a413763fff9e37c7103e77"
 metafile = true
@@ -45,6 +50,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
+metafile = true
+
+[[files]]
+file = "mods/elytra-contrails-mod.pw.toml"
+hash = "3100c9258e310a579a78b965f6d70468a790af48683f2cd19d8eba956ac6d1da"
 metafile = true
 
 [[files]]
@@ -80,6 +90,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "51fa2c64e9cf2d5558a2f1e575960a0a9f9f27f73486d0d679c2bc695eb11026"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "0e5168a4f2934ca0aaaeab725b5b0f1dd3207e9f606eedf30c564888bd330377"
 metafile = true
 
 [[files]]
@@ -167,16 +182,16 @@ hash = "9ebd5ffa0b9740b9b19ba85076976a3850f4e3996fb19efd34e0a15141dbd4a9"
 metafile = true
 
 [[files]]
-file = "shaderpacks/BSL_v8.4.01.1.zip.txt"
-hash = "7b058f9c5daf7dda4edaf24d2755c5462e17bc64beb221d895a572da24e701e4"
+file = "shaderpacks/BSL_v10.1.3.zip.txt"
+hash = "f9c8e7d5dc40252829f5b5997149f90fae65f0911c2cabbabaf6460ba63fcab5"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
-hash = "db3007e30cb67eee638e262505eed982f9ac28dceae31ba3d183b551f2fafc24"
+file = "shaderpacks/ComplementaryReimagined_r5.8.zip.txt"
+hash = "4db310b5d73ec4dc7558a6f6265c11f627a0be0d710b800c81e7e10b855fbe13"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
-hash = "dcb1f267a0a228ed75b11f0911c558ce32205431161bec449c7e73ca1de2216b"
+file = "shaderpacks/ComplementaryUnbound_r5.8.zip.txt"
+hash = "ff5e52ebfaa7cc5172c98f6ffe3f4d1081e5e51b0105ae6ee9f3b9ddcddedc7e"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
