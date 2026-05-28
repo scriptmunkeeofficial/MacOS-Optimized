@@ -1,12 +1,12 @@
 name = "Mac OS Optimized"
 author = "scriptmunkee"
-version = "1.2.0"
+version = "1.2.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2e5dacd23c43668fee8caf380782b2cbae948d977fde4f7741c3f013bcefcccc"
+hash = "98e9fbfb26fa381516f256ba8733215eef985cc4dec1eaa695e5b9741f3cd398"
 
 [versions]
 fabric = "0.149.0+26.1.2"

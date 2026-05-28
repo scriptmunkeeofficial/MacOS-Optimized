@@ -1,13 +1,13 @@
 name = "Mellow"
-filename = "Mellow Shader v3.1.1.zip"
+filename = "Mellow Shader v3.2.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/BUxf36AP/versions/VghwS71C/Mellow%20Shader%20v3.1.1.zip"
+url = "https://cdn.modrinth.com/data/BUxf36AP/versions/jSMKKxo3/Mellow%20Shader%20v3.2.zip"
 hash-format = "sha512"
-hash = "bbf3afea4dd30e1d25027e48f1c8434034617553d6886dd463de03c9c8a013c878061b63890846a19287177d3590a86471f9030f6d4025578392ce1ec31c8bfd"
+hash = "1e431b67cbcacc07a589d68ff29eb8e85a968e25d829fa708bd7e50683258ed1df8f43fba23929518d79820bded22d8667557f410a16ae2f8b3cc1c6169eb90e"
 
 [update]
 [update.modrinth]
 mod-id = "BUxf36AP"
-version = "VghwS71C"
+version = "jSMKKxo3"
