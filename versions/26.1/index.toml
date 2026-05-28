@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".antigravitycli/b80245be-69b1-4c02-8b46-53994603cab8.json"
+hash = "71f4fb171ba065755cb69f58ec79bf4351f6d9355d19326ba4dd8c6a93e6d3ab"
+
+[[files]]
 file = "LICENSE"
 hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
 
@@ -65,7 +69,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "dae57c5a1bea0fb7b104fff48e4dd5b76c0eb46cb198f65b4a3ca13316c86d20"
+hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
 metafile = true
 
 [[files]]
@@ -125,7 +129,7 @@ metafile = true
 
 [[files]]
 file = "mods/retino.pw.toml"
-hash = "512c2bd9b6cd2a1e25c362734d5b7cdb98663daed6efd0075bff9d523471b70b"
+hash = "b823d521368428e4e13ae2a763201c04300fbbf8c06d7380b3ee3425a837bf6c"
 metafile = true
 
 [[files]]
@@ -150,7 +154,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "61e81490e34e2fad9b8fda7419fd6ef72f3aad942ab210a70142af0bd806f409"
+hash = "e5278cc1dcda4fe789eaf05318fa5885f9f3412685f8ac231fe9a395409089e0"
 metafile = true
 
 [[files]]
@@ -174,7 +178,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "9ebd5ffa0b9740b9b19ba85076976a3850f4e3996fb19efd34e0a15141dbd4a9"
+hash = "039796b7190abfcdd7ee0f591fa314033e9cc8308bad85e1ca59ce148e68ada5"
 metafile = true
 
 [[files]]
@@ -196,22 +200,22 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "844af68c07eac70b45bb488a7d9af2298cd6f2867d1ad33fd7abe94110dfedb1"
+hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "4186d52e3f4eadf4ba35098431dd9d209d3f2637b1c7abb5668894594cc88246"
+hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
 metafile = true
 
 [[files]]
 file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
-hash = "85edba5e221fc8c2cbf4fbdd4b6b1973fcfb3aa571cbe68f0d4df5d8aa5c9750"
+hash = "76c678ce2d09d603d0f80d7d9210c7da006878a14f6855d228a6021acdf0687d"
 metafile = true
 
 [[files]]
 file = "shaderpacks/mellow.pw.toml"
-hash = "8fa5ab69b76136f30b45a5946f109dc80716ec58be151d0a838e47912e902cf7"
+hash = "fae99faa6d15195bf1bcffc8ab62e24eb50b93495694b7b58d8181a9f0706c1b"
 metafile = true
 
 [[files]]
