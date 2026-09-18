@@ -1,0 +1,6 @@
+#Sun May 17 01:16:59 EDT 2026
+LIGHT_SHAFT=false
+SHADOW_COLOR=false
+TAA=false
+shadowDistance=192.0
+shadowMapResolution=1536
