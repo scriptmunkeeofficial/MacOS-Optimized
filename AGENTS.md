@@ -60,9 +60,9 @@ MacOS-Optimized/
    - No pushes may happen if the active branch is `main`.
    - All Pull Requests must target the repository default branch (`main`).
 
-2. **Autonomous Implementation & Pre-PR Review Checkpoint:**
-   - Agents have full autonomy to implement features, update manifests, run tests, fix lint errors, and create atomic git commits on the isolated feature branch without pausing for step-by-step developer approval.
-   - **Human Checkpoint:** Explicit developer approval is strictly required **before** opening or merging a Pull Request into default branches (`main`), or if an unresolvable blocker or critical architectural ambiguity arises.
+2. **Autonomous Implementation & Pull Requests:**
+   - Agents have full autonomy to implement features, update manifests, run tests, fix lint errors, create atomic git commits, and open Pull Requests targeting the default branch (`main`).
+   - **Human Merge Gate:** Only a human developer can merge Pull Requests into default branches (`main`, `dev`). AI agents are strictly prohibited from merging PRs into `main`.
 
 3. **Mandatory Testing:**
    - All modifications to pack manifests, index files, or repository structure must be validated via the automated test suite.
@@ -173,8 +173,8 @@ Export Modrinth pack (executed only after verification passes):
 packwiz modrinth export -o ../../builds/Mac\ OS\ Optimized-<mc_ver>.mrpack
 ```
 
-### Step 7: Changelog & Pre-PR Review
+### Step 7: Changelog & Pull Request Creation
 1. Add the new version block in `CHANGELOG.md` under `[Unreleased]`.
 2. Push the feature branch to origin: `git push -u origin feat/<mc_ver>`.
-3. Draft a PR description mimicking the format in `.github/pull_request_template.md`.
-4. Pause at the **Human Checkpoint** to obtain developer approval before opening and merging the Pull Request.
+3. Open a Pull Request targeting `main` with description formatted following `.github/pull_request_template.md`.
+4. **Human Merge Gate:** Stop here. Only a human developer can review and merge the Pull Request into `main`.

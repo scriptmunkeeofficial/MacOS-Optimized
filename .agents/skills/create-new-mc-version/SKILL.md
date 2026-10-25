@@ -68,11 +68,11 @@ Export the `.mrpack` archive into `builds/` (executed only after tests pass):
 packwiz modrinth export -o ../../builds/Mac\ OS\ Optimized-<mc_version>.mrpack
 ```
 
-### Step 7: Changelog & Pre-PR Review
+### Step 7: Changelog & Pull Request Creation
 1. Update `CHANGELOG.md` under `[Unreleased]` with all updated mods, shaders, and resource packs.
 2. Push branch to GitHub: `git push -u origin feat/<mc_version>`.
-3. Draft the PR description following `.github/pull_request_template.md` (mimicking PR #22 / PR #24).
-4. **Human Checkpoint:** Pause for developer approval before opening or merging the PR into `main`.
+3. Open a Pull Request targeting `main` following `.github/pull_request_template.md` (mimicking PR #22 / PR #24).
+4. **Human Merge Gate:** Stop here. Only a human developer can review and merge the Pull Request into `main`. Do not merge with `gh pr merge`.
 
 ---
 
