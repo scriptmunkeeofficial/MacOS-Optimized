@@ -22,6 +22,9 @@ class TestScriptsAndSkills(unittest.TestCase):
         self.assertTrue(validate_version_files("26.3"))
 
     def test_validate_mrpack_artifact_for_26_3(self):
+        import shutil
+        if not shutil.which("packwiz") and not os.path.exists("builds/Mac OS Optimized-26.3.mrpack"):
+            self.skipTest("'packwiz' executable not found in PATH and no pre-built .mrpack in builds/")
         self.assertTrue(validate_mrpack_artifact("26.3"))
 
     def test_skills_frontmatter(self):

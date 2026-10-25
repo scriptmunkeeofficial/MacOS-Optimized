@@ -9,6 +9,7 @@ import tomllib
 import hashlib
 import zipfile
 import json
+import shutil
 
 def validate_version_files(mc_version):
     """Validate TOML syntax and hash integrity of all version files."""
@@ -78,6 +79,9 @@ def validate_mrpack_artifact(mc_version):
             break
 
     if not mrpack_path:
+        if not shutil.which("packwiz"):
+            print("   [WARN] 'packwiz' executable not found in PATH and no pre-built .mrpack in builds/.", file=sys.stderr)
+            return False
         print(f"   [INFO] No pre-existing .mrpack found in builds/ for {mc_version}. Exporting dry-run...")
         vdir = os.path.join("versions", mc_version)
         tmp_mrpack = f"/tmp/test-{mc_version}.mrpack"

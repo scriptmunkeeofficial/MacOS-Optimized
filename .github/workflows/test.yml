@@ -18,5 +18,13 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
       - name: Run Pack and Changelog Integrity Tests
         run: python3 -m unittest discover -s tests -p "test_*.py" -v
