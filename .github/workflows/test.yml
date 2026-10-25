@@ -1,0 +1,22 @@
+name: Test & Validate Packs
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Pack and Changelog Integrity Tests
+        run: python3 -m unittest discover -s tests -p "test_*.py" -v
