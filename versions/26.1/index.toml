@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".antigravitycli/b80245be-69b1-4c02-8b46-53994603cab8.json"
-hash = "71f4fb171ba065755cb69f58ec79bf4351f6d9355d19326ba4dd8c6a93e6d3ab"
-
-[[files]]
 file = "LICENSE"
 hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
 
