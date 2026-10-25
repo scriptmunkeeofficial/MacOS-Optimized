@@ -32,11 +32,12 @@ This automatically:
 1. Creates a dedicated feature branch (`feat/<mc_version>`) from `main`.
 2. Copies the latest baseline version directory to `versions/<mc_version>`.
 3. Commits the baseline copy to the branch.
-4. Bumps the pack version and executes `packwiz migrate minecraft <mc_version> -y`.
-5. Updates remaining components with `packwiz update --all -y` and runs `packwiz refresh`.
-6. Commits the migration changes atomically.
-7. Packages the `.mrpack` archive to `builds/`.
+4. Bumps the pack version and executes `packwiz refresh` immediately.
+5. Executes `packwiz migrate minecraft <mc_version> -y` (non-interactive).
+6. Updates remaining components with `packwiz update --all -y` and runs `packwiz refresh`.
+7. Commits the migration changes atomically.
 8. Runs automated pack integrity tests.
+9. Packages the `.mrpack` archive to `builds/` (only after tests pass).
 
 ---
 
@@ -46,10 +47,13 @@ This automatically:
 2. Copy previous version folder: `cp -r versions/<prev_version> versions/<mc_version>`
 3. Commit the copy: `git add versions/<mc_version> && git commit -m "Baseline copy from <prev_version> for Minecraft <mc_version>"`
 4. In `versions/<mc_version>/pack.toml`, update `version` to the next release version (e.g. `1.2.5`).
-5. Run `packwiz migrate minecraft <mc_version> -y` (auto-accepts Fabric loader and mod updates).
-6. Run `packwiz update --all -y`.
-7. Run `packwiz refresh`.
-8. Commit migration: `git add versions/<mc_version> && git commit -m "Migrate to Minecraft <mc_version> and update dependencies"`
+5. Run `packwiz refresh` immediately after updating `pack.toml`.
+6. Run `packwiz migrate minecraft <mc_version> -y` (auto-accepts Fabric loader and mod updates).
+7. Run `packwiz update --all -y`.
+8. Run `packwiz refresh`.
+9. Commit migration: `git add versions/<mc_version> && git commit -m "Migrate to Minecraft <mc_version> and update dependencies"`
+10. Run tests: `python3 -m unittest discover tests -v`
+11. Package artifact: `packwiz modrinth export -o ../../builds/Mac\ OS\ Optimized-<mc_version>.mrpack`
 
 ##### Option 2 - Manual Step-by-Step
 

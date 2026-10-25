@@ -90,6 +90,10 @@ def create_new_version(target_mc_version):
             f.write(content)
         print(f"Bumped modpack version: {current_pack_ver.group(1)} -> {new_pack_ver}")
 
+    # Pipeline requirement: packwiz refresh must run immediately after pack.toml update
+    print("\nRefreshing pack index after pack.toml update...")
+    run_cmd(["packwiz", "refresh"], cwd=target_dir)
+
     # Run packwiz migrate minecraft <version> -y
     print("\nRunning packwiz migrate...")
     run_cmd(["packwiz", "migrate", "minecraft", target_mc_version, "-y"], cwd=target_dir)
@@ -107,15 +111,15 @@ def create_new_version(target_mc_version):
     run_cmd(["git", "add", target_dir])
     run_cmd(["git", "commit", "-m", f"Migrate to Minecraft {target_mc_version} and update dependencies"])
 
-    # Step 5: Packaging
+    # Step 5: Testing & Validation (MUST run before packaging)
+    print(f"\n[Step 5] Running automated test suite before packaging")
+    test_res = run_cmd([sys.executable, "-m", "unittest", "discover", "tests", "-v"])
+
+    # Step 6: Packaging (Only after tests pass)
     os.makedirs("builds", exist_ok=True)
     export_path = f"../../builds/Mac OS Optimized-{target_mc_version}.mrpack"
-    print(f"\n[Step 5] Exporting Modrinth pack to {export_path}")
+    print(f"\n[Step 6] Exporting Modrinth pack to {export_path}")
     run_cmd(["packwiz", "modrinth", "export", "-o", export_path], cwd=target_dir)
-
-    # Step 6: Testing & Validation
-    print(f"\n[Step 6] Running automated test suite")
-    test_res = run_cmd([sys.executable, "-m", "unittest", "discover", "tests", "-v"])
     
     print(f"\n🎉 Successfully created and verified Minecraft {target_mc_version} on branch '{branch_name}'!")
     print(f"Modpack artifact generated at: builds/Mac OS Optimized-{target_mc_version}.mrpack")

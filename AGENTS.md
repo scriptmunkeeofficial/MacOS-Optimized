@@ -149,28 +149,29 @@ git commit -m "Baseline copy from <prev_ver> for Minecraft <mc_ver>"
 ### Step 4: Update Manifests (Option 1 Automated)
 Within `versions/<mc_ver>`:
 1. Increment modpack `version` in `pack.toml` (e.g. `1.2.4` -> `1.2.5`).
-2. Run `packwiz migrate minecraft <mc_ver> -y` to auto-accept Fabric loader and mod migrations.
-3. Run `packwiz update --all -y` to update all remaining components non-interactively.
-4. Run `packwiz refresh` to regenerate `index.toml`.
-5. Commit the migration changes:
+2. Run `packwiz refresh` immediately after updating `pack.toml`.
+3. Run `packwiz migrate minecraft <mc_ver> -y` to auto-accept Fabric loader and mod migrations.
+4. Run `packwiz update --all -y` to update all remaining components non-interactively.
+5. Run `packwiz refresh` to regenerate `index.toml`.
+6. Commit the migration changes:
    ```bash
    git add versions/<mc_ver>
    git commit -m "Migrate to Minecraft <mc_ver> and update dependencies"
    ```
 
-### Step 5: Package Artifact
-Export Modrinth pack:
-```bash
-packwiz modrinth export -o ../../builds/Mac\ OS\ Optimized-<mc_ver>.mrpack
-```
-
-### Step 6: Verification & Testing
+### Step 5: Verification & Testing (Before Packaging)
 Execute the test suite without loading Modrinth:
 ```bash
 python3 scripts/test_mc_version.py <mc_ver>
 python3 -m unittest discover tests -v
 ```
 Ensure all TOML files parse, all declared files exist, and SHA-256 hashes match.
+
+### Step 6: Package Artifact
+Export Modrinth pack (executed only after verification passes):
+```bash
+packwiz modrinth export -o ../../builds/Mac\ OS\ Optimized-<mc_ver>.mrpack
+```
 
 ### Step 7: Changelog & Pre-PR Review
 1. Add the new version block in `CHANGELOG.md` under `[Unreleased]`.
