@@ -1,15 +1,15 @@
 name = "Mac OS Optimized"
 author = "scriptmunkee"
-version = "1.2.3"
+version = "1.2.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "beed34ec4af7214efc2c9e0d91cea92bdb529cfed0ade50bd17e3c3df13e5b4e"
+hash = "d16341057839c94da8efba900817086519d105673cce0ee5317ba62b6d31d03e"
 
 [versions]
-fabric = "0.19.5"
+fabric = "0.20.1"
 minecraft = "26.3"
 
 [options]
