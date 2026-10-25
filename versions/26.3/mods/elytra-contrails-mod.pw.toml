@@ -1,0 +1,13 @@
+name = "Elytra Contrails Mod"
+filename = "elytratrails-1.6.9-26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dWMHBEAQ/versions/C4wdFxQq/elytratrails-1.6.9-26.3.jar"
+hash-format = "sha512"
+hash = "2502834822983aa89be9ee580fc7a18f68628b9f7da2d236e6b8b4281e2e082a8949a6e1c62aaa552c06509ef7ab0da5746146354ac5a5b527cc0cd4f618e990"
+
+[update]
+[update.modrinth]
+mod-id = "dWMHBEAQ"
+version = "C4wdFxQq"

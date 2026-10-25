@@ -1,0 +1,13 @@
+name = "Clumps"
+filename = "ly-clumps-v1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qm9Jw8Jg/versions/5o9ZRch5/ly-clumps-v1.1.0.jar"
+hash-format = "sha512"
+hash = "157389eec1fb1b2f0345266aa01b6967b6b84ab909aa2cd3190c17acfc8b538bf0d5b4a679ceead4b5ac31030316cc4f10a8737f51da8a787e4f3de5f7035d26"
+
+[update]
+[update.modrinth]
+mod-id = "qm9Jw8Jg"
+version = "5o9ZRch5"

@@ -1,0 +1,220 @@
+hash-format = "sha256"
+
+[[files]]
+file = "LICENSE"
+hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "83e749c04b348fc081037ce221cdcd1ebec6341d9545472f9e87e52dbafe723f"
+
+[[files]]
+file = "config/iris.properties"
+hash = "137869eb5adf4e2cfd4fbb8c03ef2efa5b0bb6e148a270c96c2d5a3e88b595cf"
+
+[[files]]
+file = "config/shulkerboxtooltip.json5"
+hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
+
+[[files]]
+file = "config/simplehudenhanced.toml"
+hash = "067a6fa02fa4690764651f544bf674d716ed5c31f71a2656a44e1b3da00bc217"
+
+[[files]]
+file = "config/zoomify.json"
+hash = "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36"
+
+[[files]]
+file = "icon.png"
+hash = "24f6f6d262fe028ec4b3931ac4e720848d0e725afb00f8d64841c4df3cdc09c8"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "bb194ec7f1affde2fb2d6d052683e96babe72b693e4c3263dfd8245d3941b701"
+metafile = true
+
+[[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "ef4828e5b33f6331ff869f2ff551e7f937e4f4ca5df0f5f8a995d8fa477a83c3"
+metafile = true
+
+[[files]]
+file = "mods/capes.pw.toml"
+hash = "8462f48f7578d8c8828d56cb92149051757aab03fd7621e6590bf6877bc53024"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "2b9727522c90a979eb9671ad7c5421443d91391b0697d1772146e6bfa19cb3c1"
+metafile = true
+
+[[files]]
+file = "mods/elytra-contrails-mod.pw.toml"
+hash = "2381ce6ad27be3b6295076e520fc651e0aaa0fe4ca9a0a68ff1a65673632f224"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "29f920b8bdac98a1a1d9e6454d0c3b4d0eb1f3779f2fea7b7df177b2163e5d61"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "bdabe52b4c88b2f57ab21c130c3d00a1ebae771085d31b44674d13c35135feff"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "a4c31d16582621909eba9f06a34f03114d212c7e684c8dbc9991fb12a42e043b"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "1811d49906aa7a1e7f1230535c6fec91be45129d028f7900cf35571a497e42b3"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "a7f6a1543f41198911a8b1e5e059fa0c8003365ebd6c2314e2dfa0806aff300a"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "3af2426b8d83a5fcda1ff6de2035d53bcff532653c196f2ea6d7647995e45131"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "1bcd8fa2d0c2c3390361736420236c2a5331002ae36bb5cba5a062b8708b5ee9"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "a39389e4c813b70b984a0c8aed769825b32c321ee0b9aed1151d92cb38f77357"
+metafile = true
+
+[[files]]
+file = "mods/ly-clumps.pw.toml"
+hash = "3f4c625156d62786a0c2803c8bd07f12ed1bd292949460104970bbe8df9a35a7"
+metafile = true
+
+[[files]]
+file = "mods/macos-input-fixes.pw.toml"
+hash = "181f2261705517708850b7ab8e439e184508093cb16ff0c841c176e8c8296b0d"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "cd05db76d670773ace1184abdd46126e7b7c75c2b70da82e1764cff9544c4269"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "6859959461c25d035a508bd97e4ea9ddcc8241e37f1ea92e3b4d920f601913a4"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "dbff49110dc8d3d2071b1d1a93a694601b595af2aa9ee48f3f08fbe90c734b69"
+metafile = true
+
+[[files]]
+file = "mods/retino.pw.toml"
+hash = "b823d521368428e4e13ae2a763201c04300fbbf8c06d7380b3ee3425a837bf6c"
+metafile = true
+
+[[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "924abe6b07edaab03b952cfdc174385d7b8b4644ee5269b1ea84e8826939ee3c"
+metafile = true
+
+[[files]]
+file = "mods/simple-hud-enhanced.pw.toml"
+hash = "550d7fa4cc81ce7842877d690c01210529ab048127af200bfaab714cb6b6b498"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "6e8ad3605e2c183ba21142f061f14d5b8257b4c081f37063ce36950de1bdbdb8"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "56bb32f1d8f7148d559b15806185b69023a7b04d228ed6143a54601ee5e57279"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "0bf314c578473659bd89915114cac8e60994988f405218726a48d35b06e9316c"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "4872541918eb84d24d04d0b529dfbd912b85e4dc4b60cbfb4b384dbdc15d0a75"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "24243bf59fa8e8fd2755b3bd20b4b9ea102e6afd3c0adcf92368f0ec3224aed3"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "158a47598762013693361371e444141ea7a6480a770cb466ecba9560bb05bb4d"
+
+[[files]]
+file = "resourcepacks/highlighted-ores-texturepack.pw.toml"
+hash = "cbb6a5ba45b70ee9b2060ec7f41ddec7f5d37f11b1838e381dc359be5cba86b5"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+hash = "c35023baaf723eeea67228e39ac96914a0dbcd667a53907b7665b0554355c888"
+metafile = true
+
+[[files]]
+file = "shaderpacks/BSL_v10.1.3.zip.txt"
+hash = "f9c8e7d5dc40252829f5b5997149f90fae65f0911c2cabbabaf6460ba63fcab5"
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.8.zip.txt"
+hash = "4db310b5d73ec4dc7558a6f6265c11f627a0be0d710b800c81e7e10b855fbe13"
+
+[[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.8.zip.txt"
+hash = "ff5e52ebfaa7cc5172c98f6ffe3f4d1081e5e51b0105ae6ee9f3b9ddcddedc7e"
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "31135d68099785a089f03c458fb5d1e8060a4ccec81dd3b8c36ae34ea4b9c121"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "1d892c58b3e1eede0f0380955b0e53bd6f55d5cbcefa4a6c15eae8d7924c0e26"
+metafile = true
+
+[[files]]
+file = "shaderpacks/mellow.pw.toml"
+hash = "0554cbd2334107d7ca6ecf70ee0d2cde21ab11eb446c4550fe0e75c32000a6d8"
+metafile = true
+
+[[files]]
+file = "shaderpacks/miniature-shader.pw.toml"
+hash = "ef5725a80fad1f9ffe4715a36772e12bf1ca0415894016fc834b0014beba1455"
+metafile = true

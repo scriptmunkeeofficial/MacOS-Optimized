@@ -1,0 +1,13 @@
+name = "Sodium Extra"
+filename = "sodium-extra-fabric-0.9.6-beta.1+mc26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PtjYWJkn/versions/SachDQow/sodium-extra-fabric-0.9.6-beta.1%2Bmc26.3.jar"
+hash-format = "sha512"
+hash = "8ca0f3fa69df6bb745adb65f20441a58156114a08b093fa7f75f2f26b73ecadb9d17ddbdefd0b12bbdfa6d1ff4986f82c1362fe4f1ccafeb48289ed9ffa1789d"
+
+[update]
+[update.modrinth]
+mod-id = "PtjYWJkn"
+version = "SachDQow"
