@@ -3,6 +3,7 @@ import tomllib
 import hashlib
 import glob
 import os
+import re
 
 class TestPackIntegrity(unittest.TestCase):
     """Validates packwiz configuration, TOML syntax, and file hash integrity across all versions."""
@@ -76,6 +77,46 @@ class TestPackIntegrity(unittest.TestCase):
                         expected_hash,
                         f"Hash mismatch for {rel_path} in {vdir}"
                     )
+
+    def test_fabric_loader_version_format(self):
+        """Ensure every pack.toml declares a valid SemVer Fabric Loader version."""
+        pack_files = sorted(glob.glob("versions/*/pack.toml"))
+        self.assertGreater(len(pack_files), 0, "No pack.toml files found")
+
+        for pack_file in pack_files:
+            with self.subTest(pack=pack_file):
+                with open(pack_file, "rb") as f:
+                    pack_data = tomllib.load(f)
+                fabric_ver = pack_data.get("versions", {}).get("fabric", "")
+                self.assertRegex(
+                    fabric_ver,
+                    r"^\d+\.\d+\.\d+$",
+                    f"Invalid Fabric Loader version '{fabric_ver}' in {pack_file}",
+                )
+
+    def test_no_duplicate_mod_ids(self):
+        """Ensure no Modrinth mod-id is declared twice inside the same version's mods/ directory."""
+        version_dirs = [
+            d for d in sorted(glob.glob("versions/*"))
+            if os.path.isdir(d) and os.path.exists(os.path.join(d, "pack.toml"))
+        ]
+        self.assertGreater(len(version_dirs), 0, "No version directories found")
+
+        for vdir in version_dirs:
+            seen = {}
+            for mod_toml in sorted(glob.glob(os.path.join(vdir, "mods", "*.pw.toml"))):
+                with open(mod_toml, "rb") as f:
+                    data = tomllib.load(f)
+                mod_id = data.get("update", {}).get("modrinth", {}).get("mod-id")
+                if not mod_id:
+                    continue
+                with self.subTest(version=vdir, mod_id=mod_id):
+                    self.assertNotIn(
+                        mod_id,
+                        seen,
+                        f"Duplicate Modrinth mod-id '{mod_id}' in {vdir}/mods: {seen.get(mod_id)} and {os.path.basename(mod_toml)}",
+                    )
+                    seen[mod_id] = os.path.basename(mod_toml)
 
 if __name__ == "__main__":
     unittest.main()

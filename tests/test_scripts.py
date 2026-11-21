@@ -3,7 +3,11 @@ import os
 import re
 
 from scripts.create_new_mc_version import bump_version_string, get_latest_version_dir
-from scripts.test_mc_version import validate_version_files, validate_mrpack_artifact
+from scripts.test_mc_version import (
+    get_expected_mrpack_candidates,
+    validate_mrpack_artifact,
+    validate_version_files,
+)
 
 class TestScriptsAndSkills(unittest.TestCase):
     """Test helper automation scripts and skills definitions."""
@@ -44,6 +48,30 @@ class TestScriptsAndSkills(unittest.TestCase):
                 frontmatter = match.group(1)
                 self.assertIn("name:", frontmatter)
                 self.assertIn("description:", frontmatter)
+
+    def test_get_expected_mrpack_candidates(self):
+        self.assertEqual(
+            get_expected_mrpack_candidates("26.2")[0],
+            "builds/Mac OS Optimized-1.3.0+mc26.2.mrpack",
+        )
+        self.assertEqual(
+            get_expected_mrpack_candidates("26.1")[0],
+            "builds/Mac OS Optimized-1.3.0+mc26.1.2.mrpack",
+        )
+        self.assertEqual(
+            get_expected_mrpack_candidates("1.21.7-8")[0],
+            "builds/Mac OS Optimized-1.3.0+mc1.21.8.mrpack",
+        )
+        self.assertIn(
+            "builds/Mac OS Optimized-26.3.mrpack",
+            get_expected_mrpack_candidates("26.3"),
+        )
+
+    def test_validate_version_files_v1_3_0_targets(self):
+        targets = ["1.21.1", "1.21.4", "1.21.5", "1.21.7-8", "1.21.9-10", "1.21.11", "26.1", "26.2"]
+        for ver in targets:
+            with self.subTest(version=ver):
+                self.assertTrue(validate_version_files(ver))
 
 if __name__ == "__main__":
     unittest.main()

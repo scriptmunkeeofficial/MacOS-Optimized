@@ -9,6 +9,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.3.0] - 2026-11-20
+
+Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`xs5bRkXn`) and **CMD + Delete** (`xrOWVab9`) across all 8 dual-supported Minecraft versions (`1.21.6` and `26.3` remain unchanged pending Screenshot Manager Enhanced support).
+
+**Minecraft Versions**
+- `26.2`, `26.1.2`, `1.21.11`, `1.21.10`, `1.21.8` (`1.21.7-8`), `1.21.5`, `1.21.4`, `1.21.1`
+
+**Fabric Support**
+- `26.2`: Loader version `0.19.5` (unchanged)
+- `26.1.2`: Loader version `0.19.2` (fixed invalid `0.149.0+26.1.2`)
+- `1.21.11`: Loader version `0.18.4` (updated from `0.18.2`)
+- `1.21.10`: Loader version `0.18.2` (updated from `0.17.3`)
+- `1.21.8`: Loader version `0.17.2` (unchanged)
+- `1.21.5`: Loader version `0.16.14` (unchanged)
+- `1.21.4`: Loader version `0.16.9` (unchanged)
+- `1.21.1`: Loader version `0.16.7` (unchanged)
+
+-----------------------
+
+**Package Updates**
+
+**Mods:**
+- Added: Screenshot Manager Enhanced (`v2.1.0` on `1.21.11`, `26.1.2`, `26.2`; `v1.4.0` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.8`, `1.21.10`)
+- Added: CMD + Delete (`1.5.0` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.10`, `1.21.11`, `26.1.2`, `26.2`; `1.1.0` on `1.21.8`)
+- Existing mods: unchanged
+
+**Shaderpack Changes:**
+- Unchanged
+
+**Resource Pack Changes:**
+- Unchanged
+
+---
+
 ## [1.2.4] - 2026-10-25
 
 Update for Minecraft 26.3
