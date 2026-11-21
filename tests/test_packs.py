@@ -95,7 +95,7 @@ class TestPackIntegrity(unittest.TestCase):
                 )
 
     def test_no_duplicate_mod_ids(self):
-        """Ensure no Modrinth mod-id is declared twice inside the same version's mods/ directory."""
+        """Ensure no Modrinth mod-id is declared twice inside the same version directory."""
         version_dirs = [
             d for d in sorted(glob.glob("versions/*"))
             if os.path.isdir(d) and os.path.exists(os.path.join(d, "pack.toml"))
@@ -104,19 +104,48 @@ class TestPackIntegrity(unittest.TestCase):
 
         for vdir in version_dirs:
             seen = {}
-            for mod_toml in sorted(glob.glob(os.path.join(vdir, "mods", "*.pw.toml"))):
-                with open(mod_toml, "rb") as f:
-                    data = tomllib.load(f)
-                mod_id = data.get("update", {}).get("modrinth", {}).get("mod-id")
-                if not mod_id:
-                    continue
-                with self.subTest(version=vdir, mod_id=mod_id):
-                    self.assertNotIn(
-                        mod_id,
-                        seen,
-                        f"Duplicate Modrinth mod-id '{mod_id}' in {vdir}/mods: {seen.get(mod_id)} and {os.path.basename(mod_toml)}",
-                    )
-                    seen[mod_id] = os.path.basename(mod_toml)
+            for category in ("mods", "resourcepacks", "shaderpacks"):
+                for pw_toml in sorted(glob.glob(os.path.join(vdir, category, "*.pw.toml"))):
+                    with open(pw_toml, "rb") as f:
+                        data = tomllib.load(f)
+                    mod_id = data.get("update", {}).get("modrinth", {}).get("mod-id")
+                    if not mod_id:
+                        continue
+                    rel_toml = os.path.relpath(pw_toml, vdir)
+                    with self.subTest(version=vdir, mod_id=mod_id):
+                        self.assertNotIn(
+                            mod_id,
+                            seen,
+                            f"Duplicate Modrinth mod-id '{mod_id}' in {vdir}: {seen.get(mod_id)} and {rel_toml}",
+                        )
+                        seen[mod_id] = rel_toml
+
+    def test_no_duplicate_target_filenames(self):
+        """Ensure no two manifests inside a version target the same destination file path."""
+        version_dirs = [
+            d for d in sorted(glob.glob("versions/*"))
+            if os.path.isdir(d) and os.path.exists(os.path.join(d, "pack.toml"))
+        ]
+        self.assertGreater(len(version_dirs), 0, "No version directories found")
+
+        for vdir in version_dirs:
+            seen_targets = {}
+            for category in ("mods", "resourcepacks", "shaderpacks"):
+                for pw_toml in sorted(glob.glob(os.path.join(vdir, category, "*.pw.toml"))):
+                    with open(pw_toml, "rb") as f:
+                        data = tomllib.load(f)
+                    filename = data.get("filename", "")
+                    if not filename:
+                        continue
+                    target = f"{category}/{filename}".lower()
+                    rel_toml = os.path.relpath(pw_toml, vdir)
+                    with self.subTest(version=vdir, target=target):
+                        self.assertNotIn(
+                            target,
+                            seen_targets,
+                            f"Duplicate target file '{target}' in {vdir}: {seen_targets.get(target)} and {rel_toml}",
+                        )
+                        seen_targets[target] = rel_toml
 
 if __name__ == "__main__":
     unittest.main()

@@ -186,11 +186,6 @@ hash = "f18e6196d79be05795c41658af6ea9ad77457bb65058bdd65a0ef5d3c6f30ca0"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ls-renderpearl.pw.toml"
-hash = "5e8ba8a9c8f7fe338b661e2a8db39d554810d2b4225740e4a3f95427397abfce"
-metafile = true
-
-[[files]]
 file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
 hash = "1a51c77ae8100b5e1c3ed764b0839b8124287b99eb2f4ea924ea3ffe44279755"
 metafile = true

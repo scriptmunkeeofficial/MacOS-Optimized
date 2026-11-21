@@ -36,7 +36,7 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 - Existing mods: unchanged
 
 **Shaderpack Changes:**
-- Unchanged
+- Removed duplicate manifest `ls-renderpearl.pw.toml` in `1.21.1` and `1.21.4` (duplicate of `renderpearl.pw.toml`, which caused Modrinth App import path collisions)
 
 **Resource Pack Changes:**
 - Unchanged

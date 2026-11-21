@@ -93,6 +93,42 @@ def get_expected_mrpack_candidates(mc_version):
             candidates.append(cand)
     return candidates
 
+def validate_mrpack_entries(index_json, namelist):
+    """Validate modrinth.index.json file entries and archive override paths for collisions."""
+    errors = []
+    seen_paths = {}
+    for entry in index_json.get("files", []):
+        path = entry.get("path", "")
+        if not path:
+            errors.append("Empty file path in modrinth.index.json")
+            continue
+
+        norm_path = path.lower()
+        if norm_path in seen_paths:
+            errors.append(
+                f"Duplicate modpack content path: '{seen_paths[norm_path]}' and '{path}'"
+            )
+        else:
+            seen_paths[norm_path] = path
+
+        downloads = entry.get("downloads")
+        if not isinstance(downloads, list) or len(downloads) == 0:
+            errors.append(f"Missing downloads list for '{path}'")
+
+        hashes = entry.get("hashes", {})
+        if not hashes.get("sha1") or not hashes.get("sha512"):
+            errors.append(f"Missing sha1/sha512 hashes for '{path}'")
+
+    for name in namelist:
+        if name.startswith("overrides/") and not name.endswith("/"):
+            rel = name[len("overrides/"):]
+            if rel.lower() in seen_paths:
+                errors.append(
+                    f"Override '{name}' collides with index path '{seen_paths[rel.lower()]}'"
+                )
+
+    return len(errors) == 0, errors
+
 def validate_mrpack_artifact(mc_version):
     """Validate exported .mrpack artifact structure and modrinth.index.json."""
     pack_file = os.path.join("versions", mc_version, "pack.toml")
@@ -151,6 +187,12 @@ def validate_mrpack_artifact(mc_version):
                 return False
             if deps.get("fabric-loader") != expected_fl:
                 print(f"   [FAIL] fabric-loader dependency mismatch: expected {expected_fl}, got {deps.get('fabric-loader')}", file=sys.stderr)
+                return False
+
+            entries_ok, entry_errors = validate_mrpack_entries(index_json, namelist)
+            if not entries_ok:
+                for err in entry_errors:
+                    print(f"   [FAIL] {err}", file=sys.stderr)
                 return False
 
             print(f"   [OK] Valid Modrinth pack (Version: {actual_ver}, Game: {game} {expected_mc}, Fabric: {expected_fl}, Files: {len(files)}, Format: {index_json.get('formatVersion')})")
