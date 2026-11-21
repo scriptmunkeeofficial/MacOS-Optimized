@@ -48,6 +48,11 @@ hash = "ab92afc9c86b581a10eb4e8dc52a3640deeb6d03fb662f6f53b2a21e87d74405"
 metafile = true
 
 [[files]]
+file = "mods/cmd-delete.pw.toml"
+hash = "7800c3d990fce36fe1c563dc355f8d46e41f2d8a1c616d7b86d916e9894baf0a"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "c9498b99c90e67bcb6b9d8fae3cee6deb6c1ddd92fb5dc6f3493737266dec21b"
 metafile = true
@@ -115,6 +120,11 @@ metafile = true
 [[files]]
 file = "mods/retino.pw.toml"
 hash = "512c2bd9b6cd2a1e25c362734d5b7cdb98663daed6efd0075bff9d523471b70b"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-manager-enhanced.pw.toml"
+hash = "38c78660a9feefb6715a955e4eecd1952b893f77ea861c1b6a3dedd944fc9179"
 metafile = true
 
 [[files]]

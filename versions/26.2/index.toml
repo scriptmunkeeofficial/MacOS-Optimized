@@ -49,6 +49,11 @@ hash = "7fa9592b9948b8809018a4e7c3ca7da4d19fc5ef8c03021414cb22ae0253f083"
 metafile = true
 
 [[files]]
+file = "mods/cmd-delete.pw.toml"
+hash = "891c8b6fc3d86c432ab7ef648a0e0a6464b6d8bfa6e44629f97034a77f7821a1"
+metafile = true
+
+[[files]]
 file = "mods/elytra-contrails-mod.pw.toml"
 hash = "c4eebdc2df5758e6a58816c3f2b026f500a7866f8c654d912948f1abedc9d991"
 metafile = true
@@ -126,6 +131,11 @@ metafile = true
 [[files]]
 file = "mods/retino.pw.toml"
 hash = "b823d521368428e4e13ae2a763201c04300fbbf8c06d7380b3ee3425a837bf6c"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-manager-enhanced.pw.toml"
+hash = "8259ee54707dfafba4184d71779fed18352b56e880f1940cf8afb2df062d02fb"
 metafile = true
 
 [[files]]

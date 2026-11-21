@@ -1,0 +1,13 @@
+name = "CMD + Delete"
+filename = "cmd_delete-1.5.0+mc26.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xrOWVab9/versions/e2w0ltBo/cmd_delete-1.5.0%2Bmc26.1-fabric.jar"
+hash-format = "sha512"
+hash = "8874ac5c97e96d8d32e4f3643384da4eb512f450f4dc50342b7ab8550bc72a7d3a585fe3c1eb29b02c372aa1141ea1e2efb67b45e9917bbb44554dfa389fe408"
+
+[update]
+[update.modrinth]
+mod-id = "xrOWVab9"
+version = "e2w0ltBo"

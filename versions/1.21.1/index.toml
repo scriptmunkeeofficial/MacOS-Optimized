@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
+
+[[files]]
 file = "config/dynamic_fps.json"
 hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
 
@@ -11,6 +15,10 @@ hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
 [[files]]
 file = "config/simplehudenhanced.toml"
 hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+
+[[files]]
+file = "icon.png"
+hash = "24f6f6d262fe028ec4b3931ac4e720848d0e725afb00f8d64841c4df3cdc09c8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -30,6 +38,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "f0ec653fdb2ea3c2546cbe327d1d184256548be6fe9e459885eb0f9459153dae"
+metafile = true
+
+[[files]]
+file = "mods/cmd-delete.pw.toml"
+hash = "4d38d1a8f5f1ac2737e4efa800af93ce6b296eccae4b814968ad3cd1bcb332fd"
 metafile = true
 
 [[files]]
@@ -115,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/retino.pw.toml"
 hash = "9cb0fd1b1f90735e466203c5cb7eea464817a34b969b4a35f59118da4eb2e9f7"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-manager-enhanced.pw.toml"
+hash = "999177a7d765c4b40b3adb7eda55be04289df54a711ed0cc1c472b41b6eda978"
 metafile = true
 
 [[files]]
