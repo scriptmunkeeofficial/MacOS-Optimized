@@ -10,7 +10,7 @@ hash = "83e749c04b348fc081037ce221cdcd1ebec6341d9545472f9e87e52dbafe723f"
 
 [[files]]
 file = "config/iris.properties"
-hash = "137869eb5adf4e2cfd4fbb8c03ef2efa5b0bb6e148a270c96c2d5a3e88b595cf"
+hash = "1f346ed49673a42c6eefd9c1792de32b40014e560835e41193c6c189440dfc91"
 
 [[files]]
 file = "config/shulkerboxtooltip.json5"
@@ -221,7 +221,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/mellow.pw.toml"
-hash = "6dc75e9071152946e61392c1dcf89863c836f3848aa83f1e11ea86c7b533b927"
+hash = "0554cbd2334107d7ca6ecf70ee0d2cde21ab11eb446c4550fe0e75c32000a6d8"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "CMD + Delete"
-filename = "cmd_delete-1.5.0+mc1.21.11-fabric.jar"
+filename = "cmd_delete-1.4.3b+mc1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/xrOWVab9/versions/Yeit9m1T/cmd_delete-1.5.0%2Bmc1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/xrOWVab9/versions/9Al5L86O/cmd_delete-1.4.3b%2Bmc1.21.11.jar"
 hash-format = "sha512"
-hash = "8922484171d1efc931e778d1bd34d1a44d4fbe25fedbe6fa3e1d8227c51582cfe6417a3b318b90743edbc4fb50ded5e5f5d602aa8eddae83721059b45ee472e0"
+hash = "eb43a24e6ff4e5141a090791f3b8e3a0f41fe653ab4fe12cb3f1f97c5f9903b7748ec1b2d1b5aac0943e0f5dfb0cb52e17258c38ed560108c2137dd86b9e73e8"
 
 [update]
 [update.modrinth]
 mod-id = "xrOWVab9"
-version = "Yeit9m1T"
+version = "9Al5L86O"

@@ -49,7 +49,7 @@ metafile = true
 
 [[files]]
 file = "mods/cmd-delete.pw.toml"
-hash = "5037f3687a9732a5f7c1712625d8da16e6ec9781f8ca6cbde376e3820394935d"
+hash = "64fbfe11b2e3f57a0b6970d8018a1b69abbbe11300c8ce1f937eaabd03744940"
 metafile = true
 
 [[files]]
@@ -64,7 +64,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "7adc0d54f139075d8f90dae18ca476753cc3145a70e09c9327736024adfe9b30"
+hash = "0c2a00cdbcf84f32ed8c6232e94cadb586bf1280d6b922818db808c16c6d8a77"
 metafile = true
 
 [[files]]

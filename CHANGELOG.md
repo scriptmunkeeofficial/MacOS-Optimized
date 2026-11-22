@@ -22,9 +22,9 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 - `1.21.11`: Loader version `0.18.4` (updated from `0.18.2`)
 - `1.21.10`: Loader version `0.18.2` (updated from `0.17.3`)
 - `1.21.8`: Loader version `0.17.2` (unchanged)
-- `1.21.5`: Loader version `0.16.14` (unchanged)
-- `1.21.4`: Loader version `0.16.9` (unchanged)
-- `1.21.1`: Loader version `0.16.7` (unchanged)
+- `1.21.5`: Loader version `0.17.2` (updated from `0.16.14`, required by `CMD + Delete 1.4.3b`)
+- `1.21.4`: Loader version `0.17.2` (updated from `0.16.9`, required by `CMD + Delete 1.4.3b`)
+- `1.21.1`: Loader version `0.17.2` (updated from `0.16.7`, required by `CMD + Delete 1.4.3b`)
 
 -----------------------
 
@@ -32,14 +32,20 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 
 **Mods:**
 - Added: Screenshot Manager Enhanced (`v2.1.0` on `1.21.11`, `26.1.2`, `26.2`; `v1.4.0` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.8`, `1.21.10`)
-- Added: CMD + Delete (`1.5.0` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.10`, `1.21.11`, `26.1.2`, `26.2`; `1.1.0` on `1.21.8`)
-- Existing mods: unchanged
+- Added: CMD + Delete (`1.5.0` on `26.1.2`, `26.2`; `1.4.3b` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.10`, `1.21.11` to avoid unremapped `1.5.0` Mojang-mapping crash on obfuscated `1.21.x`; `1.1.0` on `1.21.8`)
+- Updated: Fabric API on `1.21.11` (`0.140.2+1.21.11` -> `0.141.6+1.21.11`, required by `CMD + Delete 1.4.3b+mc1.21.11`)
+- Existing mods: unchanged elsewhere
 
 **Shaderpack Changes:**
+- Updated: Mellow on `26.2` (`Mellow Shader v3.4.zip` -> `Mellow v3.4.1a.zip`, restoring macOS compatibility)
 - Removed duplicate manifest `ls-renderpearl.pw.toml` in `1.21.1` and `1.21.4` (duplicate of `renderpearl.pw.toml`, which caused Modrinth App import path collisions)
 
 **Resource Pack Changes:**
 - Unchanged
+
+**Config Changes:**
+- Updated: `versions/26.1/config/iris.properties` (`shaderPack=Mellow Shader v3.2.zip`)
+- Updated: `versions/26.2/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
 
 ---
 

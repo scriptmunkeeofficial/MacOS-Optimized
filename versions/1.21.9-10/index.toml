@@ -49,7 +49,7 @@ metafile = true
 
 [[files]]
 file = "mods/cmd-delete.pw.toml"
-hash = "7800c3d990fce36fe1c563dc355f8d46e41f2d8a1c616d7b86d916e9894baf0a"
+hash = "1d949b0c350f659cf702d357bcbc3aade2a2d91dbfe162c7a183013e3b4d25ee"
 metafile = true
 
 [[files]]
