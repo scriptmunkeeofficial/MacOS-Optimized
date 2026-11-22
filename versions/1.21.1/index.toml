@@ -9,12 +9,20 @@ file = "config/dynamic_fps.json"
 hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
 
 [[files]]
+file = "config/iris.properties"
+hash = "7210993a8f23018ada48026b6a8156bca3ef6c0ddffef4bb68101dcd9fdf5202"
+
+[[files]]
 file = "config/shulkerboxtooltip.json5"
 hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
 
 [[files]]
 file = "config/simplehudenhanced.toml"
 hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+
+[[files]]
+file = "config/zoomify.json"
+hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
 
 [[files]]
 file = "icon.png"
@@ -164,6 +172,15 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "7f7768f2047011ed61c9bbec29bbcd2d06c5eb8ab731d442b9ecc2c01bbc8c6b"
 metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "c60742515b9d78f5d5ffd4de8cbb0884b8e38bb286c2e5304f7916b2c374ca9a"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "ebe07c67c37670bbc330c11a0c0eb018d6d5f4858d1ef6ef9645df38d6182908"
 
 [[files]]
 file = "resourcepacks/highlighted-ores-texturepack.pw.toml"

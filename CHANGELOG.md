@@ -34,8 +34,9 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 **Mods:**
 - Added: Screenshot Manager Enhanced (`v2.1.0` on `1.21.11`, `26.1.2`, `26.2`; `v1.4.0` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.8`, `1.21.10`; skipped on `26.3`)
 - Added: CMD + Delete (`1.5.0` on `26.1.2`, `26.2`, `26.3`; `1.4.3b` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.10`, `1.21.11` to avoid unremapped `1.5.0` Mojang-mapping crash on obfuscated `1.21.x`; `1.1.0` on `1.21.8`)
+- Added (`1.21.1`): Zoomify (`2.14.2+1.21.1`) for parity with other versions
 - Updated (`1.21.11`): Fabric API (`0.140.2+1.21.11` -> `0.141.6+1.21.11`, required by `CMD + Delete 1.4.3b+mc1.21.11`)
-- Updated (`26.3`): Better Block Entities (`1.4.1`), Elytra Contrails Mod (`1.6.10`), Entity Culling (`1.12.2`), [ETF] Entity Texture Features (`7.2.7`), Fabric API (`0.166.2+26.3`), Lithium (`0.26.4`), Mod Menu (`21.0.1`), More Culling (`1.9.2`), Reese's Sodium Options (`2.2.6`), retiNO (`1.2.0`), Simple Voice Chat (`2.6.27`), Sodium (`0.9.3-beta.3`, pinned for Iris `1.11.7` compatibility), Sodium Extra (`0.9.6`)
+- Updated (`26.3`): Better Block Entities (`1.4.1`), Elytra Contrails Mod (`1.6.10`), Entity Culling (`1.12.2`), [ETF] Entity Texture Features (`7.2.7`), Fabric API (`0.166.2+26.3`), Lithium (`0.26.4`), Mod Menu (`21.0.1`), More Culling (`1.9.2`), Reese's Sodium Options (`2.2.6-beta.2`, pinned for Sodium `0.9.3-beta.3`), retiNO (`1.2.0`), Simple Voice Chat (`2.6.27`), Sodium (`0.9.3-beta.3`, pinned for Iris `1.11.7` compatibility), Sodium Extra (`0.9.6-beta.2`, pinned for Sodium `0.9.3-beta.3`)
 - Existing mods: unchanged on `1.21.1`–`26.2`
 
 **Shaderpack Changes:**
@@ -47,6 +48,7 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 - Updated (`26.3`): Translations for Sodium (`SodiumTranslations.zip`)
 
 **Config Changes:**
+- Added (`1.21.1`): `options.txt`, `config/iris.properties` (`shaderPack=Mellow Shader v1.5.1.zip`), and `config/zoomify.json` for parity with other versions
 - Updated: `versions/1.21.11/config/iris.properties` (`shaderPack=Mellow v2.2.1.zip`)
 - Updated: `versions/26.1/config/iris.properties` (`shaderPack=Mellow Shader v3.2.zip`)
 - Updated: `versions/26.2/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
