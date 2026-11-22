@@ -36,10 +36,12 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 - Added: CMD + Delete (`1.5.0` on `26.1.2`, `26.2`, `26.3`; `1.4.3b` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.10`, `1.21.11` to avoid unremapped `1.5.0` Mojang-mapping crash on obfuscated `1.21.x`; `1.1.0` on `1.21.8`)
 - Added (`1.21.1`): Zoomify (`2.14.2+1.21.1`) for parity with other versions
 - Updated (`1.21.11`): Fabric API (`0.140.2+1.21.11` -> `0.141.6+1.21.11`, required by `CMD + Delete 1.4.3b+mc1.21.11`)
-- Existing mods: unchanged
+- Updated (`26.3`): Elytra Contrails Mod (`1.6.9-26.3` -> `1.6.10-26.3`), Fabric API (`0.165.0+26.3` -> `0.166.2+26.3`), Lithium (`0.26.2+mc26.3` -> `0.26.4+mc26.3`), Mod Menu (`21.0.0` -> `21.0.1`), retiNO (`1.1.0` -> `1.2.0`), Simple Voice Chat (`2.6.26+26.3` -> `2.6.27+26.3`)
+- Existing mods on `1.21.1`–`26.2`: unchanged
 
 **Shaderpack Changes:**
 - Updated (`26.2`): Mellow (`Mellow Shader v3.4.zip` -> `Mellow v3.4.1a.zip`, restoring macOS compatibility)
+- Updated (`26.3`): Complementary Shaders - Reimagined (`r5.9.3` -> `r5.10`), Complementary Shaders - Unbound (`r5.9.3` -> `r5.10`), MakeUp - Ultra Fast (`9.6` -> `9.6a`), Mellow (`v3.4.1a` -> `v3.5`)
 - Removed duplicate manifest `ls-renderpearl.pw.toml` in `1.21.1` and `1.21.4` (duplicate of `renderpearl.pw.toml`, which caused Modrinth App import path collisions)
 
 **Resource Pack Changes:**
@@ -50,7 +52,7 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 - Updated: `versions/1.21.11/config/iris.properties` (`shaderPack=Mellow v2.2.1.zip`)
 - Updated: `versions/26.1/config/iris.properties` (`shaderPack=Mellow Shader v3.2.zip`)
 - Updated: `versions/26.2/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
-- Updated: `versions/26.3/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
+- Updated (`26.3`): `versions/26.3/config/iris.properties` (`shaderPack=Mellow v3.5.zip`) and `versions/26.3/options.txt` (`version:5023`, `enableVsync:false`, `guiScale:3`, `textureFiltering:0`, `macFullscreenMenuVisibility:false`, `preferredGraphicsBackend:"default"`, `tutorialStep:none`)
 
 ---
 

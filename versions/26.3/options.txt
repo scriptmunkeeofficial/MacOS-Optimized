@@ -1,9 +1,9 @@
-version:4671
+version:5023
 ao:true
 biomeBlendRadius:2
 chunkSectionFadeInTime:0.75
 cutoutLeaves:true
-enableVsync:true
+enableVsync:false
 entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
@@ -13,14 +13,16 @@ fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
+preferredGraphicsBackend:"default"
 graphicsPreset:"custom"
 prioritizeChunkUpdates:1
 fullscreen:false
 exclusiveFullscreen:true
+macFullscreenMenuVisibility:false
 gamma:0.5
-guiScale:4
+guiScale:3
 maxAnisotropyBit:1
-textureFiltering:1
+textureFiltering:0
 maxFps:120
 improvedTransparency:false
 inactivityFpsLimit:"afk"
@@ -49,7 +51,6 @@ invertYMouse:false
 realmsNotifications:true
 showSubtitles:true
 directionalAudio:false
-touchscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -87,7 +88,7 @@ notificationDisplayTime:1.0
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
-tutorialStep:movement
+tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 allowCursorChanges:true
