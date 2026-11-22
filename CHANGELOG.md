@@ -44,8 +44,10 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 - Unchanged
 
 **Config Changes:**
+- Updated: `versions/1.21.11/config/iris.properties` (`shaderPack=Mellow v2.2.1.zip`)
 - Updated: `versions/26.1/config/iris.properties` (`shaderPack=Mellow Shader v3.2.zip`)
 - Updated: `versions/26.2/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
+- Updated: `versions/26.3/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
 
 ---
 

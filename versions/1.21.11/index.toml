@@ -14,7 +14,7 @@ hash = "6e961d971f43e378643ce2a6101bc8899c63c77c661098bf6af3555b5b1dec57"
 
 [[files]]
 file = "config/iris.properties"
-hash = "c7364a90ba3ad04ef4bcc60e7817f8cedfc110ea7e101870de13317f8c773049"
+hash = "a8ed4a7636b2f0c04c872f58c1ae845812c1f7141b7971fb94e25ecd91bba655"
 
 [[files]]
 file = "config/shulkerboxtooltip.json5"
