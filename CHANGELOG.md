@@ -14,7 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`xs5bRkXn`, on `1.21.1`–`26.2` except `1.21.6`) and **CMD + Delete** (`xrOWVab9`, across all 9 active versions including `26.3`), plus updating all `26.3` packages to their latest compatible versions (`1.21.6` remains unchanged).
 
 **Minecraft Versions**
-- `26.3`, `26.2`, `26.1.2`, `1.21.11`, `1.21.10`, `1.21.8` (`1.21.7-8`), `1.21.5`, `1.21.4`, `1.21.1`
+- `26.3` *(beta release)*, `26.2`, `26.1.2`, `1.21.11`, `1.21.10`, `1.21.8` (`1.21.7-8`), `1.21.5`, `1.21.4`, `1.21.1`
+
+**Known Issues**
+- **MC 26.3 (Beta):** Shaders are disabled by default (`enableShaders=false` in `versions/26.3/config/iris.properties`) due to an Iris / Sodium compatibility bug with shaders on `26.3`.
 
 **Fabric Support**
 - `26.3`: Loader version `0.20.1` (unchanged)
@@ -52,7 +55,7 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 - Updated: `versions/1.21.11/config/iris.properties` (`shaderPack=Mellow v2.2.1.zip`)
 - Updated: `versions/26.1/config/iris.properties` (`shaderPack=Mellow Shader v3.2.zip`)
 - Updated: `versions/26.2/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
-- Updated: `versions/26.3/config/iris.properties` (`shaderPack=Mellow v3.5.zip`)
+- Updated: `versions/26.3/config/iris.properties` (`shaderPack=Mellow v3.5.zip`, `enableShaders=false` due to known 26.3 shader bug)
 
 ---
 
