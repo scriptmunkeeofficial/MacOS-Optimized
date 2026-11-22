@@ -63,13 +63,13 @@ class TestScriptsAndSkills(unittest.TestCase):
             get_expected_mrpack_candidates("1.21.7-8")[0],
             "builds/Mac OS Optimized-1.3.0+mc1.21.8.mrpack",
         )
-        self.assertIn(
-            "builds/Mac OS Optimized-26.3.mrpack",
-            get_expected_mrpack_candidates("26.3"),
+        self.assertEqual(
+            get_expected_mrpack_candidates("26.3")[0],
+            "builds/Mac OS Optimized-1.3.0+mc26.3.mrpack",
         )
 
     def test_validate_version_files_v1_3_0_targets(self):
-        targets = ["1.21.1", "1.21.4", "1.21.5", "1.21.7-8", "1.21.9-10", "1.21.11", "26.1", "26.2"]
+        targets = ["1.21.1", "1.21.4", "1.21.5", "1.21.7-8", "1.21.9-10", "1.21.11", "26.1", "26.2", "26.3"]
         for ver in targets:
             with self.subTest(version=ver):
                 self.assertTrue(validate_version_files(ver))

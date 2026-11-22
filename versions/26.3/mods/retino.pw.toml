@@ -1,13 +1,13 @@
 name = "retiNO"
-filename = "retiNO-ver-26.1-1.1.0.jar"
+filename = "retiNO-1.2.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/z7dmZ4nL/versions/WXp30SQo/retiNO-ver-26.1-1.1.0.jar"
+url = "https://cdn.modrinth.com/data/z7dmZ4nL/versions/jfyTd1PG/retiNO-1.2.0.jar"
 hash-format = "sha512"
-hash = "b03fafd8e1e725dc62be54b52e800bd23127831230ec541b8bdb991a634a554ba7c7695fa113d7c5fae5982e7854a4d2b573a1afc8298ab4e873192e89d230f6"
+hash = "8ba65bd722f17cac893e860a93746adea57f021bc7b02fb42ad25e87fe04d729e468459f225c6e4269b5a28f543d2264bcbb656abe2dbacd98ac2aa8b0bb1074"
 
 [update]
 [update.modrinth]
 mod-id = "z7dmZ4nL"
-version = "WXp30SQo"
+version = "jfyTd1PG"

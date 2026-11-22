@@ -11,12 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.3.0] - 2026-11-20
 
-Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`xs5bRkXn`) and **CMD + Delete** (`xrOWVab9`) across all 8 dual-supported Minecraft versions (`1.21.6` and `26.3` remain unchanged pending Screenshot Manager Enhanced support).
+Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`xs5bRkXn`, on `1.21.1`–`26.2` except `1.21.6`) and **CMD + Delete** (`xrOWVab9`, across all 9 active versions including `26.3`), plus updating all `26.3` packages to their latest compatible versions (`1.21.6` remains unchanged).
 
 **Minecraft Versions**
-- `26.2`, `26.1.2`, `1.21.11`, `1.21.10`, `1.21.8` (`1.21.7-8`), `1.21.5`, `1.21.4`, `1.21.1`
+- `26.3`, `26.2`, `26.1.2`, `1.21.11`, `1.21.10`, `1.21.8` (`1.21.7-8`), `1.21.5`, `1.21.4`, `1.21.1`
 
 **Fabric Support**
+- `26.3`: Loader version `0.20.1` (unchanged)
 - `26.2`: Loader version `0.19.5` (unchanged)
 - `26.1.2`: Loader version `0.19.2` (fixed invalid `0.149.0+26.1.2`)
 - `1.21.11`: Loader version `0.18.4` (updated from `0.18.2`)
@@ -31,23 +32,25 @@ Unified v1.3.0 quality-of-life release adding **Screenshot Manager Enhanced** (`
 **Package Updates**
 
 **Mods:**
-- Added: Screenshot Manager Enhanced (`v2.1.0` on `1.21.11`, `26.1.2`, `26.2`; `v1.4.0` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.8`, `1.21.10`)
-- Added: CMD + Delete (`1.5.0` on `26.1.2`, `26.2`; `1.4.3b` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.10`, `1.21.11` to avoid unremapped `1.5.0` Mojang-mapping crash on obfuscated `1.21.x`; `1.1.0` on `1.21.8`)
-- Updated: Fabric API on `1.21.11` (`0.140.2+1.21.11` -> `0.141.6+1.21.11`, required by `CMD + Delete 1.4.3b+mc1.21.11`)
-- Existing mods: unchanged elsewhere
+- Added: Screenshot Manager Enhanced (`v2.1.0` on `1.21.11`, `26.1.2`, `26.2`; `v1.4.0` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.8`, `1.21.10`; skipped on `26.3`)
+- Added: CMD + Delete (`1.5.0` on `26.1.2`, `26.2`, `26.3`; `1.4.3b` on `1.21.1`, `1.21.4`, `1.21.5`, `1.21.10`, `1.21.11` to avoid unremapped `1.5.0` Mojang-mapping crash on obfuscated `1.21.x`; `1.1.0` on `1.21.8`)
+- Updated (`1.21.11`): Fabric API (`0.140.2+1.21.11` -> `0.141.6+1.21.11`, required by `CMD + Delete 1.4.3b+mc1.21.11`)
+- Updated (`26.3`): Better Block Entities (`1.4.1`), Elytra Contrails Mod (`1.6.10`), Entity Culling (`1.12.2`), [ETF] Entity Texture Features (`7.2.7`), Fabric API (`0.166.2+26.3`), Lithium (`0.26.4`), Mod Menu (`21.0.1`), More Culling (`1.9.2`), Reese's Sodium Options (`2.2.6`), retiNO (`1.2.0`), Simple Voice Chat (`2.6.27`), Sodium (`0.9.3-beta.3`, pinned for Iris `1.11.7` compatibility), Sodium Extra (`0.9.6`)
+- Existing mods: unchanged on `1.21.1`–`26.2`
 
 **Shaderpack Changes:**
-- Updated: Mellow on `26.2` (`Mellow Shader v3.4.zip` -> `Mellow v3.4.1a.zip`, restoring macOS compatibility)
+- Updated (`26.2`): Mellow (`Mellow Shader v3.4.zip` -> `Mellow v3.4.1a.zip`, restoring macOS compatibility)
+- Updated (`26.3`): Complementary Shaders - Reimagined (`r5.10`), Complementary Shaders - Unbound (`r5.10`), MakeUp - Ultra Fast (`9.6a`), Mellow (`v3.5`)
 - Removed duplicate manifest `ls-renderpearl.pw.toml` in `1.21.1` and `1.21.4` (duplicate of `renderpearl.pw.toml`, which caused Modrinth App import path collisions)
 
 **Resource Pack Changes:**
-- Unchanged
+- Updated (`26.3`): Translations for Sodium (`SodiumTranslations.zip`)
 
 **Config Changes:**
 - Updated: `versions/1.21.11/config/iris.properties` (`shaderPack=Mellow v2.2.1.zip`)
 - Updated: `versions/26.1/config/iris.properties` (`shaderPack=Mellow Shader v3.2.zip`)
 - Updated: `versions/26.2/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
-- Updated: `versions/26.3/config/iris.properties` (`shaderPack=Mellow v3.4.1a.zip`)
+- Updated: `versions/26.3/config/iris.properties` (`shaderPack=Mellow v3.5.zip`)
 
 ---
 
