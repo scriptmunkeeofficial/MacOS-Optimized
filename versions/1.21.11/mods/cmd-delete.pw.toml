@@ -1,0 +1,13 @@
+name = "CMD + Delete"
+filename = "cmd_delete-1.4.3b+mc1.21.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xrOWVab9/versions/9Al5L86O/cmd_delete-1.4.3b%2Bmc1.21.11.jar"
+hash-format = "sha512"
+hash = "eb43a24e6ff4e5141a090791f3b8e3a0f41fe653ab4fe12cb3f1f97c5f9903b7748ec1b2d1b5aac0943e0f5dfb0cb52e17258c38ed560108c2137dd86b9e73e8"
+
+[update]
+[update.modrinth]
+mod-id = "xrOWVab9"
+version = "9Al5L86O"

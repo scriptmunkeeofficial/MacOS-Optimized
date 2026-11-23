@@ -10,7 +10,7 @@ hash = "83e749c04b348fc081037ce221cdcd1ebec6341d9545472f9e87e52dbafe723f"
 
 [[files]]
 file = "config/iris.properties"
-hash = "339ab39fc38318ed71d2e2c74497da70be3c8e0dbb27ca93968b43dee5493c63"
+hash = "137869eb5adf4e2cfd4fbb8c03ef2efa5b0bb6e148a270c96c2d5a3e88b595cf"
 
 [[files]]
 file = "config/shulkerboxtooltip.json5"
@@ -46,6 +46,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
+metafile = true
+
+[[files]]
+file = "mods/cmd-delete.pw.toml"
+hash = "891c8b6fc3d86c432ab7ef648a0e0a6464b6d8bfa6e44629f97034a77f7821a1"
 metafile = true
 
 [[files]]
@@ -126,6 +131,11 @@ metafile = true
 [[files]]
 file = "mods/retino.pw.toml"
 hash = "b823d521368428e4e13ae2a763201c04300fbbf8c06d7380b3ee3425a837bf6c"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-manager-enhanced.pw.toml"
+hash = "6e868d198508712da24a9951e1dfc060f4e51d7d19897f497139ebfff7485398"
 metafile = true
 
 [[files]]

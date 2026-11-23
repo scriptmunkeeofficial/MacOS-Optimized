@@ -1,0 +1,13 @@
+name = "Screenshot Manager Enhanced"
+filename = "screenshot-manager-enhanced-2.1.0-26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xs5bRkXn/versions/9YNaMdgZ/screenshot-manager-enhanced-2.1.0-26.2.jar"
+hash-format = "sha512"
+hash = "bc11427095f905469bf8e196f1fe9e4c9ffc427e59eff08e0b23a68426c259dd660e26ed2c82d90defdf567be0d6e7e9eeee94d59e17250d26a74bd17e9a9e6d"
+
+[update]
+[update.modrinth]
+mod-id = "xs5bRkXn"
+version = "9YNaMdgZ"

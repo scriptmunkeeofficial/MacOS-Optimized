@@ -10,7 +10,7 @@ hash = "83e749c04b348fc081037ce221cdcd1ebec6341d9545472f9e87e52dbafe723f"
 
 [[files]]
 file = "config/iris.properties"
-hash = "137869eb5adf4e2cfd4fbb8c03ef2efa5b0bb6e148a270c96c2d5a3e88b595cf"
+hash = "78e16e5824d1e6f90444616a6f9f7d050afc30243bb8a31eea6ec331f4cb1d28"
 
 [[files]]
 file = "config/shulkerboxtooltip.json5"
@@ -49,8 +49,13 @@ hash = "2b9727522c90a979eb9671ad7c5421443d91391b0697d1772146e6bfa19cb3c1"
 metafile = true
 
 [[files]]
+file = "mods/cmd-delete.pw.toml"
+hash = "72be2a2d777ef2ed72d62bc655ddee5f1b17e76bc7f8a580667d8fba995f35e1"
+metafile = true
+
+[[files]]
 file = "mods/elytra-contrails-mod.pw.toml"
-hash = "2381ce6ad27be3b6295076e520fc651e0aaa0fe4ca9a0a68ff1a65673632f224"
+hash = "2536e1c7e2f46d491eba74e89c82b224abf75589d710e98fd497b07029939373"
 metafile = true
 
 [[files]]
@@ -65,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "a4c31d16582621909eba9f06a34f03114d212c7e684c8dbc9991fb12a42e043b"
+hash = "fb72a70cb53c63f1da4520c25c8a7d806cc1c733e827016615623b65d751852d"
 metafile = true
 
 [[files]]
@@ -95,7 +100,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "a39389e4c813b70b984a0c8aed769825b32c321ee0b9aed1151d92cb38f77357"
+hash = "bae28aaf888e212a4310264a51e585aa252051fcc2467c309670c7786b923ee5"
 metafile = true
 
 [[files]]
@@ -110,7 +115,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "cd05db76d670773ace1184abdd46126e7b7c75c2b70da82e1764cff9544c4269"
+hash = "3feb5af047a7aabdcbae76e59f0c6603c61ef093d19c44f6d3ad76b48272a6dc"
 metafile = true
 
 [[files]]
@@ -125,7 +130,7 @@ metafile = true
 
 [[files]]
 file = "mods/retino.pw.toml"
-hash = "b823d521368428e4e13ae2a763201c04300fbbf8c06d7380b3ee3425a837bf6c"
+hash = "e08bd9e00653ae7204fc1165aa1724db1c314223f9c9633899146c7fa175e4e4"
 metafile = true
 
 [[files]]
@@ -140,7 +145,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "6e8ad3605e2c183ba21142f061f14d5b8257b4c081f37063ce36950de1bdbdb8"
+hash = "6865b44c30baa85a87c344ac9d3e0eb0135e90b26a90a6dc28bf79a363170cf9"
 metafile = true
 
 [[files]]
@@ -165,7 +170,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "158a47598762013693361371e444141ea7a6480a770cb466ecba9560bb05bb4d"
+hash = "c51075bc90f9bb0c92225e73610de8e1fd9db9f5acce256d149355e530630163"
 
 [[files]]
 file = "resourcepacks/highlighted-ores-texturepack.pw.toml"
@@ -196,22 +201,22 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+hash = "5c17de8161b06a10dbd8e59645e7d7edfc583054009b5a787086d5f4fb1a77f1"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+hash = "9ceebab8640099bd51b9ad88bbf2d3938772ba03a836c6f6e116ba33924541e7"
 metafile = true
 
 [[files]]
 file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
-hash = "1d892c58b3e1eede0f0380955b0e53bd6f55d5cbcefa4a6c15eae8d7924c0e26"
+hash = "0e60b67ad2358ba08dc63511c6d9fb8555103855256673c47209112b1cbf12a2"
 metafile = true
 
 [[files]]
 file = "shaderpacks/mellow.pw.toml"
-hash = "0554cbd2334107d7ca6ecf70ee0d2cde21ab11eb446c4550fe0e75c32000a6d8"
+hash = "6fa9ecb16d4230cfe0621d59cd2d85c321480ee4ca96952122fbdeea0f35e3fc"
 metafile = true
 
 [[files]]

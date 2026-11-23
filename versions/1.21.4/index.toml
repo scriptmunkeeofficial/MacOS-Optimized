@@ -53,6 +53,11 @@ hash = "84010019ebe7f20274f0c6c55aa3dd254e335098f006bed0d4f0a189ac12fa64"
 metafile = true
 
 [[files]]
+file = "mods/cmd-delete.pw.toml"
+hash = "e0d8d976178c2eca9b18b667ad0709d883f504f91b35fdd51b05469f6a7a8974"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "49f8089d53aa0e40f6b9551e7931d4f502faf07f0c72fb7e1d6d8bc471a09482"
 metafile = true
@@ -128,6 +133,11 @@ hash = "9cb0fd1b1f90735e466203c5cb7eea464817a34b969b4a35f59118da4eb2e9f7"
 metafile = true
 
 [[files]]
+file = "mods/screenshot-manager-enhanced.pw.toml"
+hash = "0609d2fc244c5eb2f216713568912512005f80ac66c12c737d1b56ee66587fe0"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "a62b74c73c0d2d2da641462d462c4ce920829eedc0b3a56caaea171f800ca10c"
 metafile = true
@@ -197,11 +207,6 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "d222003558c856ef20e0865b26d03f92d1a6015bc6c6d637169bdbbfdbafcf3c"
-metafile = true
-
-[[files]]
-file = "shaderpacks/ls-renderpearl.pw.toml"
-hash = "36c7690500572f15093fda820e1c7556d765f6c8c22fcb799743ffe5c07e96e3"
 metafile = true
 
 [[files]]

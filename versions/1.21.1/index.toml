@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "2697e02e79ba657a756f819351d5f154d134c149d9669bdb056e57cd523785e6"
+
+[[files]]
 file = "config/dynamic_fps.json"
 hash = "06430a1a5a3bd0b62648078deb022a4ec315f115f790755a06e4093ca00a56ec"
+
+[[files]]
+file = "config/iris.properties"
+hash = "7210993a8f23018ada48026b6a8156bca3ef6c0ddffef4bb68101dcd9fdf5202"
 
 [[files]]
 file = "config/shulkerboxtooltip.json5"
@@ -11,6 +19,14 @@ hash = "42bdf9884f0f85ed925e118b250cf9e66d2324f3e83ce103f3f1236c82d00533"
 [[files]]
 file = "config/simplehudenhanced.toml"
 hash = "4100576c744caa473e9f46b2db38736efa9bbb57a2d7c9b6931f100bc914e7df"
+
+[[files]]
+file = "config/zoomify.json"
+hash = "60a78fe1b271ce9b53e295235eb5a7cdb3a8692ca583fdaa7f5bc09f9049e2f4"
+
+[[files]]
+file = "icon.png"
+hash = "24f6f6d262fe028ec4b3931ac4e720848d0e725afb00f8d64841c4df3cdc09c8"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -30,6 +46,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "f0ec653fdb2ea3c2546cbe327d1d184256548be6fe9e459885eb0f9459153dae"
+metafile = true
+
+[[files]]
+file = "mods/cmd-delete.pw.toml"
+hash = "e0d8d976178c2eca9b18b667ad0709d883f504f91b35fdd51b05469f6a7a8974"
 metafile = true
 
 [[files]]
@@ -118,6 +139,11 @@ hash = "9cb0fd1b1f90735e466203c5cb7eea464817a34b969b4a35f59118da4eb2e9f7"
 metafile = true
 
 [[files]]
+file = "mods/screenshot-manager-enhanced.pw.toml"
+hash = "999177a7d765c4b40b3adb7eda55be04289df54a711ed0cc1c472b41b6eda978"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "27f31e3c878723e5502bc5860c84e5a0d92016e77a7bd0b654251627f8387beb"
 metafile = true
@@ -148,6 +174,15 @@ hash = "7f7768f2047011ed61c9bbec29bbcd2d06c5eb8ab731d442b9ecc2c01bbc8c6b"
 metafile = true
 
 [[files]]
+file = "mods/zoomify.pw.toml"
+hash = "c60742515b9d78f5d5ffd4de8cbb0884b8e38bb286c2e5304f7916b2c374ca9a"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "ebe07c67c37670bbc330c11a0c0eb018d6d5f4858d1ef6ef9645df38d6182908"
+
+[[files]]
 file = "resourcepacks/highlighted-ores-texturepack.pw.toml"
 hash = "9a7b017d447a6d793edbb932f42fa59adc19d69ac2ac93bf6f431a145a873110"
 metafile = true
@@ -165,11 +200,6 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "f18e6196d79be05795c41658af6ea9ad77457bb65058bdd65a0ef5d3c6f30ca0"
-metafile = true
-
-[[files]]
-file = "shaderpacks/ls-renderpearl.pw.toml"
-hash = "5e8ba8a9c8f7fe338b661e2a8db39d554810d2b4225740e4a3f95427397abfce"
 metafile = true
 
 [[files]]
